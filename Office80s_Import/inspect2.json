@@ -1,0 +1,176 @@
+{
+ "trashbag": [
+  {
+   "name": "None",
+   "cls": "BP_TrashBag_C"
+  },
+  {
+   "name": "DefaultSceneRoot",
+   "cls": "SceneComponent",
+   "rel_loc": "<Struct 'Vector' (0x0000025F5457D680) {x: 0.000000, y: 0.000000, z: 0.000000}>"
+  },
+  {
+   "name": "StaticMesh",
+   "cls": "StaticMeshComponent",
+   "mesh": "/Engine/BasicShapes/Cube.Cube",
+   "mats": [],
+   "scale": "<Struct 'Vector' (0x0000025F546065B0) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+   "loc": "<Struct 'Vector' (0x0000025F54606580) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+   "coll": "OverlapAllDynamic",
+   "rel_loc": "<Struct 'Vector' (0x0000025F54606580) {x: 0.000000, y: 0.000000, z: 0.000000}>"
+  },
+  {
+   "name": "StaticMesh",
+   "cls": "StaticMeshComponent",
+   "mesh": "/Engine/BasicShapes/Cube.Cube",
+   "mats": [],
+   "scale": "<Struct 'Vector' (0x0000025F546065B0) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+   "loc": "<Struct 'Vector' (0x0000025F54606580) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+   "coll": "OverlapAllDynamic",
+   "rel_loc": "<Struct 'Vector' (0x0000025F54606580) {x: 0.000000, y: 0.000000, z: 0.000000}>"
+  }
+ ],
+ "ppv": {
+  "label": "PostProcessVolume",
+  "unbound": true,
+  "bias_on": false,
+  "bias": 1.0,
+  "method_on": false,
+  "method": "<AutoExposureMethod.AEM_HISTOGRAM: 0>"
+ },
+ "lights": [
+  [
+   "SkyLight",
+   "SkyLight",
+   1.0,
+   "",
+   ""
+  ],
+  [
+   "DirectionalLight",
+   "DirectionalLightComponent",
+   10.0,
+   "<Struct 'Color' (0x000002607EB8F8B8) {b: 255, g: 255, r: 255, a: 255}>",
+   "[]"
+  ],
+  [
+   "RectLight10",
+   "RectLightComponent",
+   3.0,
+   "<Struct 'Color' (0x0000025F4F1A9DB8) {b: 148, g: 254, r: 255, a: 255}>",
+   "[]"
+  ],
+  [
+   "RectLight8",
+   "RectLightComponent",
+   3.0,
+   "<Struct 'Color' (0x0000025F4F1AA7B8) {b: 148, g: 254, r: 255, a: 255}>",
+   "[]"
+  ],
+  [
+   "RectLight5",
+   "RectLightComponent",
+   3.0,
+   "<Struct 'Color' (0x0000025F4F1AB1B8) {b: 148, g: 254, r: 255, a: 255}>",
+   "[]"
+  ],
+  [
+   "RectLight11",
+   "RectLightComponent",
+   3.0,
+   "<Struct 'Color' (0x0000025F4F1ABBB8) {b: 148, g: 254, r: 255, a: 255}>",
+   "[]"
+  ],
+  [
+   "RectLight16",
+   "RectLightComponent",
+   3.0,
+   "<Struct 'Color' (0x0000025F4F1AC5B8) {b: 148, g: 254, r: 255, a: 255}>",
+   "[]"
+  ],
+  [
+   "RectLight13",
+   "RectLightComponent",
+   3.0,
+   "<Struct 'Color' (0x0000025F4F1ACFB8) {b: 148, g: 254, r: 255, a: 255}>",
+   "[]"
+  ],
+  [
+   "RectLight7",
+   "RectLightComponent",
+   3.0,
+   "<Struct 'Color' (0x0000025F4F1AD9B8) {b: 148, g: 254, r: 255, a: 255}>",
+   "[]"
+  ],
+  [
+   "RectLight15",
+   "RectLightComponent",
+   3.0,
+   "<Struct 'Color' (0x0000025F4F1AE3B8) {b: 148, g: 254, r: 255, a: 255}>",
+   "[]"
+  ],
+  [
+   "RectLight9",
+   "RectLightComponent",
+   3.0,
+   "<Struct 'Color' (0x0000025F4F1AEDB8) {b: 148, g: 254, r: 255, a: 255}>",
+   "[]"
+  ],
+  [
+   "RectLight6",
+   "RectLightComponent",
+   3.0,
+   "<Struct 'Color' (0x0000025F4F1AF7B8) {b: 148, g: 254, r: 255, a: 255}>",
+   "[]"
+  ],
+  [
+   "RectLight14",
+   "RectLightComponent",
+   3.0,
+   "<Struct 'Color' (0x0000025F4F7E02B8) {b: 148, g: 254, r: 255, a: 255}>",
+   "[]"
+  ],
+  [
+   "RectLight18",
+   "RectLightComponent",
+   3.0,
+   "<Struct 'Color' (0x0000025F4F7E0CB8) {b: 148, g: 254, r: 255, a: 255}>",
+   "[]"
+  ],
+  [
+   "RectLight4",
+   "RectLightComponent",
+   3.0,
+   "<Struct 'Color' (0x0000025F4F7E16B8) {b: 148, g: 254, r: 255, a: 255}>",
+   "[]"
+  ],
+  [
+   "RectLight3",
+   "RectLightComponent",
+   3.0,
+   "<Struct 'Color' (0x0000025F4F7E20B8) {b: 148, g: 254, r: 255, a: 255}>",
+   "[]"
+  ],
+  [
+   "RectLight",
+   "RectLightComponent",
+   1.0,
+   "<Struct 'Color' (0x0000025F4F7E2AB8) {b: 148, g: 254, r: 255, a: 255}>",
+   "[]"
+  ],
+  [
+   "RectLight2",
+   "RectLightComponent",
+   3.0,
+   "<Struct 'Color' (0x0000025F4F7E34B8) {b: 148, g: 254, r: 255, a: 255}>",
+   "[]"
+  ],
+  [
+   "RectLight12",
+   "RectLightComponent",
+   3.0,
+   "<Struct 'Color' (0x0000025F4F9916B8) {b: 148, g: 254, r: 255, a: 255}>",
+   "[]"
+  ]
+ ]
+}

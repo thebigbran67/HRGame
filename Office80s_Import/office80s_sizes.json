@@ -1,0 +1,876 @@
+{
+"SM_80s_FileBank": {
+"file": "SM_80s_FileBank.glb",
+"size_cm": [
+151.68,
+88.52,
+201.96
+],
+"tris": 816,
+"min": [
+-75.8,
+-45.0,
+0.0
+],
+"max": [
+75.8,
+43.6,
+202.0
+]
+},
+"SM_80s_FileCabinet4": {
+"file": "SM_80s_FileCabinet4.glb",
+"size_cm": [
+50.16,
+88.52,
+171.6
+],
+"tris": 256,
+"min": [
+-25.1,
+-45.0,
+0.0
+],
+"max": [
+25.1,
+43.6,
+171.6
+]
+},
+"SM_80s_FileCabinet2": {
+"file": "SM_80s_FileCabinet2.glb",
+"size_cm": [
+50.16,
+88.52,
+89.76
+],
+"tris": 160,
+"min": [
+-25.1,
+-45.0,
+0.0
+],
+"max": [
+25.1,
+43.6,
+89.8
+]
+},
+"SM_80s_Wastebasket": {
+"file": "SM_80s_Wastebasket.glb",
+"size_cm": [
+34.32,
+34.32,
+44.61
+],
+"tris": 400,
+"min": [
+-17.2,
+-17.2,
+0.0
+],
+"max": [
+17.2,
+17.2,
+44.6
+]
+},
+"SM_80s_WaterCooler": {
+"file": "SM_80s_WaterCooler.glb",
+"size_cm": [
+52.8,
+50.16,
+174.24
+],
+"tris": 476,
+"min": [
+-21.1,
+-29.0,
+0.0
+],
+"max": [
+31.7,
+21.1,
+174.2
+]
+},
+"SM_80s_Ficus": {
+"file": "SM_80s_Ficus.glb",
+"size_cm": [
+99.76,
+97.37,
+273.19
+],
+"tris": 4404,
+"min": [
+-48.3,
+-45.2,
+0.0
+],
+"max": [
+51.5,
+52.2,
+273.2
+]
+},
+"SM_80s_SnakePlant": {
+"file": "SM_80s_SnakePlant.glb",
+"size_cm": [
+39.0,
+36.96,
+134.67
+],
+"tris": 352,
+"min": [
+-20.5,
+-18.5,
+0.0
+],
+"max": [
+18.5,
+18.5,
+134.7
+]
+},
+"SM_80s_CoatRack": {
+"file": "SM_80s_CoatRack.glb",
+"size_cm": [
+88.86,
+79.98,
+250.8
+],
+"tris": 388,
+"min": [
+-44.4,
+-29.8,
+0.0
+],
+"max": [
+44.4,
+50.2,
+250.8
+]
+},
+"SM_80s_Copier": {
+"file": "SM_80s_Copier.glb",
+"size_cm": [
+139.92,
+97.94,
+135.96
+],
+"tris": 180,
+"min": [
+-51.5,
+-57.0,
+0.0
+],
+"max": [
+88.4,
+40.9,
+136.0
+]
+},
+"SM_80s_Poster_Sunset": {
+"file": "SM_80s_Poster_Sunset.glb",
+"size_cm": [
+79.2,
+2.5,
+105.6
+],
+"tris": 248,
+"min": [
+-39.6,
+-2.5,
+-52.8
+],
+"max": [
+39.6,
+0.0,
+52.8
+]
+},
+"SM_80s_Poster_Memphis": {
+"file": "SM_80s_Poster_Memphis.glb",
+"size_cm": [
+79.2,
+2.5,
+105.6
+],
+"tris": 500,
+"min": [
+-39.6,
+-2.5,
+-52.8
+],
+"max": [
+39.6,
+0.0,
+52.8
+]
+},
+"SM_80s_Poster_Teamwork": {
+"file": "SM_80s_Poster_Teamwork.glb",
+"size_cm": [
+79.2,
+2.5,
+105.6
+],
+"tris": 120,
+"min": [
+-39.6,
+-2.5,
+-52.8
+],
+"max": [
+39.6,
+0.0,
+52.8
+]
+},
+"SM_80s_WallClock": {
+"file": "SM_80s_WallClock.glb",
+"size_cm": [
+44.88,
+6.7,
+44.88
+],
+"tris": 468,
+"min": [
+-22.4,
+-6.7,
+-22.4
+],
+"max": [
+22.4,
+0.0,
+22.4
+]
+},
+"SM_80s_BulletinBoard": {
+"file": "SM_80s_BulletinBoard.glb",
+"size_cm": [
+158.4,
+4.81,
+105.6
+],
+"tris": 456,
+"min": [
+-79.2,
+-4.8,
+-52.8
+],
+"max": [
+79.2,
+0.0,
+52.8
+]
+},
+"SM_80s_CubiclePinup_A": {
+"file": "SM_80s_CubiclePinup_A.glb",
+"size_cm": [
+120.5,
+1.91,
+63.7
+],
+"tris": 480,
+"min": [
+-100.3,
+-2.2,
+-31.7
+],
+"max": [
+20.2,
+-0.3,
+32.0
+]
+},
+"SM_80s_CubiclePinup_B": {
+"file": "SM_80s_CubiclePinup_B.glb",
+"size_cm": [
+143.37,
+1.98,
+39.48
+],
+"tris": 276,
+"min": [
+-71.2,
+-2.4,
+-31.9
+],
+"max": [
+72.2,
+-0.4,
+7.6
+]
+},
+"SM_80s_CubiclePinup_C": {
+"file": "SM_80s_CubiclePinup_C.glb",
+"size_cm": [
+154.88,
+2.21,
+68.62
+],
+"tris": 556,
+"min": [
+-54.6,
+-2.5,
+-32.3
+],
+"max": [
+100.3,
+-0.3,
+36.3
+]
+},
+"SM_80s_CeilingLight": {
+"file": "SM_80s_CeilingLight.glb",
+"size_cm": [
+161.04,
+80.52,
+11.36
+],
+"tris": 60,
+"min": [
+-80.5,
+-40.3,
+-11.4
+],
+"max": [
+80.5,
+40.3,
+0.0
+]
+},
+"SM_80s_RoundTable": {
+"file": "SM_80s_RoundTable.glb",
+"size_cm": [
+143.76,
+143.76,
+110.22
+],
+"tris": 532,
+"min": [
+-71.9,
+-71.9,
+0.0
+],
+"max": [
+71.9,
+71.9,
+110.2
+]
+},
+"SM_80s_BoxStack": {
+"file": "SM_80s_BoxStack.glb",
+"size_cm": [
+116.46,
+95.59,
+102.96
+],
+"tris": 216,
+"min": [
+-59.8,
+-72.7,
+0.0
+],
+"max": [
+56.7,
+22.9,
+103.0
+]
+},
+"SM_80s_CoffeeStation": {
+"file": "SM_80s_CoffeeStation.glb",
+"size_cm": [
+134.0,
+74.8,
+150.48
+],
+"tris": 780,
+"min": [
+-67.0,
+-37.5,
+0.0
+],
+"max": [
+67.0,
+37.3,
+150.5
+]
+},
+"SM_80s_ReceptionCounter": {
+"file": "SM_80s_ReceptionCounter.glb",
+"size_cm": [
+1234.0,
+527.5,
+212.1
+],
+"tris": 2936,
+"min": [
+-617.0,
+-271.0,
+0.0
+],
+"max": [
+617.0,
+256.5,
+212.1
+]
+},
+"SM_80s_WaitingChairs": {
+"file": "SM_80s_WaitingChairs.glb",
+"size_cm": [
+253.44,
+75.27,
+119.25
+],
+"tris": 288,
+"min": [
+-126.7,
+-31.7,
+0.0
+],
+"max": [
+126.7,
+43.6,
+119.3
+]
+},
+"SM_80s_CoffeeTable": {
+"file": "SM_80s_CoffeeTable.glb",
+"size_cm": [
+145.2,
+77.2,
+59.4
+],
+"tris": 272,
+"min": [
+-72.6,
+-36.7,
+0.0
+],
+"max": [
+72.6,
+40.5,
+59.4
+]
+},
+"SM_80s_LogoSign": {
+"file": "SM_80s_LogoSign.glb",
+"size_cm": [
+290.4,
+5.0,
+118.8
+],
+"tris": 464,
+"min": [
+-145.2,
+-5.0,
+-59.4
+],
+"max": [
+145.2,
+0.0,
+59.4
+]
+},
+"SM_80s_ExecDesk": {
+"file": "SM_80s_ExecDesk.glb",
+"size_cm": [
+270.0,
+138.0,
+149.95
+],
+"tris": 656,
+"min": [
+-135.0,
+-69.0,
+0.0
+],
+"max": [
+135.0,
+69.0,
+150.0
+]
+},
+"SM_80s_ExecChair": {
+"file": "SM_80s_ExecChair.glb",
+"size_cm": [
+92.4,
+85.87,
+165.0
+],
+"tris": 412,
+"min": [
+-46.2,
+-41.0,
+0.0
+],
+"max": [
+46.2,
+44.9,
+165.0
+]
+},
+"SM_80s_GuestChair": {
+"file": "SM_80s_GuestChair.glb",
+"size_cm": [
+84.48,
+74.92,
+125.4
+],
+"tris": 132,
+"min": [
+-42.2,
+-37.0,
+0.0
+],
+"max": [
+42.2,
+38.0,
+125.4
+]
+},
+"SM_80s_Bookshelf": {
+"file": "SM_80s_Bookshelf.glb",
+"size_cm": [
+158.4,
+46.2,
+264.0
+],
+"tris": 1500,
+"min": [
+-79.2,
+-23.1,
+0.0
+],
+"max": [
+79.2,
+23.1,
+264.0
+]
+},
+"SM_80s_Credenza": {
+"file": "SM_80s_Credenza.glb",
+"size_cm": [
+237.6,
+68.5,
+132.66
+],
+"tris": 420,
+"min": [
+-118.8,
+-35.5,
+0.0
+],
+"max": [
+118.8,
+33.0,
+132.7
+]
+},
+"SM_80s_RugBoss": {
+"file": "SM_80s_RugBoss.glb",
+"size_cm": [
+411.84,
+264.0,
+1.3
+],
+"tris": 1260,
+"min": [
+-205.9,
+-132.0,
+0.0
+],
+"max": [
+205.9,
+132.0,
+1.3
+]
+},
+"SM_80s_RugLobby": {
+"file": "SM_80s_RugLobby.glb",
+"size_cm": [
+359.04,
+237.6,
+1.3
+],
+"tris": 1140,
+"min": [
+-179.5,
+-118.8,
+0.0
+],
+"max": [
+179.5,
+118.8,
+1.3
+]
+},
+"SM_80s_Painting": {
+"file": "SM_80s_Painting.glb",
+"size_cm": [
+177.85,
+7.0,
+125.4
+],
+"tris": 240,
+"min": [
+-92.1,
+-7.0,
+-66.0
+],
+"max": [
+85.8,
+0.0,
+59.4
+]
+},
+"SM_80s_Globe": {
+"file": "SM_80s_Globe.glb",
+"size_cm": [
+63.36,
+63.36,
+139.36
+],
+"tris": 2244,
+"min": [
+-31.7,
+-31.7,
+-0.8
+],
+"max": [
+31.7,
+31.7,
+138.6
+]
+},
+"SM_80s_MetalShelf": {
+"file": "SM_80s_MetalShelf.glb",
+"size_cm": [
+118.8,
+59.4,
+237.6
+],
+"tris": 1220,
+"min": [
+-59.4,
+-29.7,
+0.0
+],
+"max": [
+59.4,
+29.7,
+237.6
+]
+},
+"SM_80s_MopBucket": {
+"file": "SM_80s_MopBucket.glb",
+"size_cm": [
+62.37,
+47.52,
+201.6
+],
+"tris": 388,
+"min": [
+-30.4,
+-23.8,
+0.0
+],
+"max": [
+32.0,
+23.8,
+201.6
+]
+},
+"SM_80s_Brooms": {
+"file": "SM_80s_Brooms.glb",
+"size_cm": [
+97.68,
+65.12,
+204.4
+],
+"tris": 72,
+"min": [
+-34.3,
+-20.5,
+-1.0
+],
+"max": [
+63.4,
+44.6,
+203.4
+]
+},
+"SM_80s_WetFloorSign": {
+"file": "SM_80s_WetFloorSign.glb",
+"size_cm": [
+39.6,
+48.57,
+87.02
+],
+"tris": 132,
+"min": [
+-19.8,
+-24.3,
+1.4
+],
+"max": [
+19.8,
+24.3,
+88.4
+]
+},
+"SM_80s_UtilitySink": {
+"file": "SM_80s_UtilitySink.glb",
+"size_cm": [
+92.4,
+72.6,
+105.6
+],
+"tris": 164,
+"min": [
+-46.2,
+-36.3,
+0.0
+],
+"max": [
+46.2,
+36.3,
+105.6
+]
+},
+"SM_80s_Fridge": {
+"file": "SM_80s_Fridge.glb",
+"size_cm": [
+100.32,
+100.32,
+224.4
+],
+"tris": 132,
+"min": [
+-50.2,
+-52.8,
+0.0
+],
+"max": [
+50.2,
+47.5,
+224.4
+]
+},
+"SM_80s_VendingMachine": {
+"file": "SM_80s_VendingMachine.glb",
+"size_cm": [
+125.4,
+107.6,
+241.56
+],
+"tris": 720,
+"min": [
+-62.7,
+-54.8,
+0.0
+],
+"max": [
+62.7,
+52.8,
+241.6
+]
+},
+"SM_80s_Kitchenette": {
+"file": "SM_80s_Kitchenette.glb",
+"size_cm": [
+329.68,
+83.84,
+283.8
+],
+"tris": 1088,
+"min": [
+-170.3,
+-42.9,
+0.0
+],
+"max": [
+159.4,
+40.9,
+283.8
+]
+},
+"SM_80s_BreakTable": {
+"file": "SM_80s_BreakTable.glb",
+"size_cm": [
+199.0,
+106.6,
+110.22
+],
+"tris": 324,
+"min": [
+-99.5,
+-53.3,
+0.0
+],
+"max": [
+99.5,
+53.3,
+110.2
+]
+},
+"SM_80s_StackChair": {
+"file": "SM_80s_StackChair.glb",
+"size_cm": [
+64.68,
+64.73,
+112.33
+],
+"tris": 72,
+"min": [
+-32.3,
+-31.7,
+0.0
+],
+"max": [
+32.3,
+33.0,
+112.3
+]
+},
+"SM_80s_ConfTable": {
+"file": "SM_80s_ConfTable.glb",
+"size_cm": [
+380.16,
+158.4,
+129.36
+],
+"tris": 452,
+"min": [
+-190.1,
+-79.2,
+0.0
+],
+"max": [
+190.1,
+79.2,
+129.4
+]
+},
+"SM_80s_Whiteboard": {
+"file": "SM_80s_Whiteboard.glb",
+"size_cm": [
+237.6,
+13.2,
+135.96
+],
+"tris": 360,
+"min": [
+-118.8,
+-13.2,
+-70.0
+],
+"max": [
+118.8,
+0.0,
+66.0
+]
+}
+}
