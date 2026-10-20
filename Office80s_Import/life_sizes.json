@@ -1,0 +1,344 @@
+{
+ "SM_80s_FileBank": {
+  "file": "SM_80s_FileBank.glb",
+  "size_cm": [
+   151.68,
+   88.52,
+   201.96
+  ],
+  "tris": 816,
+  "min": [
+   -75.8,
+   -45.0,
+   0.0
+  ],
+  "max": [
+   75.8,
+   43.6,
+   202.0
+  ]
+ },
+ "SM_80s_FileCabinet4": {
+  "file": "SM_80s_FileCabinet4.glb",
+  "size_cm": [
+   50.16,
+   88.52,
+   171.6
+  ],
+  "tris": 256,
+  "min": [
+   -25.1,
+   -45.0,
+   0.0
+  ],
+  "max": [
+   25.1,
+   43.6,
+   171.6
+  ]
+ },
+ "SM_80s_FileCabinet2": {
+  "file": "SM_80s_FileCabinet2.glb",
+  "size_cm": [
+   50.16,
+   88.52,
+   89.76
+  ],
+  "tris": 160,
+  "min": [
+   -25.1,
+   -45.0,
+   0.0
+  ],
+  "max": [
+   25.1,
+   43.6,
+   89.8
+  ]
+ },
+ "SM_80s_Wastebasket": {
+  "file": "SM_80s_Wastebasket.glb",
+  "size_cm": [
+   34.32,
+   34.32,
+   44.61
+  ],
+  "tris": 400,
+  "min": [
+   -17.2,
+   -17.2,
+   0.0
+  ],
+  "max": [
+   17.2,
+   17.2,
+   44.6
+  ]
+ },
+ "SM_80s_WaterCooler": {
+  "file": "SM_80s_WaterCooler.glb",
+  "size_cm": [
+   52.8,
+   50.16,
+   174.24
+  ],
+  "tris": 476,
+  "min": [
+   -21.1,
+   -29.0,
+   0.0
+  ],
+  "max": [
+   31.7,
+   21.1,
+   174.2
+  ]
+ },
+ "SM_80s_Ficus": {
+  "file": "SM_80s_Ficus.glb",
+  "size_cm": [
+   99.76,
+   97.37,
+   273.19
+  ],
+  "tris": 4404,
+  "min": [
+   -48.3,
+   -45.2,
+   0.0
+  ],
+  "max": [
+   51.5,
+   52.2,
+   273.2
+  ]
+ },
+ "SM_80s_SnakePlant": {
+  "file": "SM_80s_SnakePlant.glb",
+  "size_cm": [
+   39.0,
+   36.96,
+   134.67
+  ],
+  "tris": 352,
+  "min": [
+   -20.5,
+   -18.5,
+   0.0
+  ],
+  "max": [
+   18.5,
+   18.5,
+   134.7
+  ]
+ },
+ "SM_80s_CoatRack": {
+  "file": "SM_80s_CoatRack.glb",
+  "size_cm": [
+   88.86,
+   79.98,
+   250.8
+  ],
+  "tris": 388,
+  "min": [
+   -44.4,
+   -29.8,
+   0.0
+  ],
+  "max": [
+   44.4,
+   50.2,
+   250.8
+  ]
+ },
+ "SM_80s_Copier": {
+  "file": "SM_80s_Copier.glb",
+  "size_cm": [
+   139.92,
+   97.94,
+   135.96
+  ],
+  "tris": 180,
+  "min": [
+   -51.5,
+   -57.0,
+   0.0
+  ],
+  "max": [
+   88.4,
+   40.9,
+   136.0
+  ]
+ },
+ "SM_80s_Poster_Sunset": {
+  "file": "SM_80s_Poster_Sunset.glb",
+  "size_cm": [
+   79.2,
+   2.5,
+   105.6
+  ],
+  "tris": 248,
+  "min": [
+   -39.6,
+   -2.5,
+   -52.8
+  ],
+  "max": [
+   39.6,
+   0.0,
+   52.8
+  ]
+ },
+ "SM_80s_Poster_Memphis": {
+  "file": "SM_80s_Poster_Memphis.glb",
+  "size_cm": [
+   79.2,
+   2.5,
+   105.6
+  ],
+  "tris": 500,
+  "min": [
+   -39.6,
+   -2.5,
+   -52.8
+  ],
+  "max": [
+   39.6,
+   0.0,
+   52.8
+  ]
+ },
+ "SM_80s_Poster_Teamwork": {
+  "file": "SM_80s_Poster_Teamwork.glb",
+  "size_cm": [
+   79.2,
+   2.5,
+   105.6
+  ],
+  "tris": 120,
+  "min": [
+   -39.6,
+   -2.5,
+   -52.8
+  ],
+  "max": [
+   39.6,
+   0.0,
+   52.8
+  ]
+ },
+ "SM_80s_WallClock": {
+  "file": "SM_80s_WallClock.glb",
+  "size_cm": [
+   44.88,
+   6.7,
+   44.88
+  ],
+  "tris": 468,
+  "min": [
+   -22.4,
+   -6.7,
+   -22.4
+  ],
+  "max": [
+   22.4,
+   0.0,
+   22.4
+  ]
+ },
+ "SM_80s_BulletinBoard": {
+  "file": "SM_80s_BulletinBoard.glb",
+  "size_cm": [
+   158.4,
+   4.81,
+   105.6
+  ],
+  "tris": 456,
+  "min": [
+   -79.2,
+   -4.8,
+   -52.8
+  ],
+  "max": [
+   79.2,
+   0.0,
+   52.8
+  ]
+ },
+ "SM_80s_CubiclePinup_A": {
+  "file": "SM_80s_CubiclePinup_A.glb",
+  "size_cm": [
+   120.5,
+   1.91,
+   63.7
+  ],
+  "tris": 480,
+  "min": [
+   -100.3,
+   -2.2,
+   -31.7
+  ],
+  "max": [
+   20.2,
+   -0.3,
+   32.0
+  ]
+ },
+ "SM_80s_CubiclePinup_B": {
+  "file": "SM_80s_CubiclePinup_B.glb",
+  "size_cm": [
+   143.37,
+   1.98,
+   39.48
+  ],
+  "tris": 276,
+  "min": [
+   -71.2,
+   -2.4,
+   -31.9
+  ],
+  "max": [
+   72.2,
+   -0.4,
+   7.6
+  ]
+ },
+ "SM_80s_CubiclePinup_C": {
+  "file": "SM_80s_CubiclePinup_C.glb",
+  "size_cm": [
+   154.88,
+   2.21,
+   68.62
+  ],
+  "tris": 556,
+  "min": [
+   -54.6,
+   -2.5,
+   -32.3
+  ],
+  "max": [
+   100.3,
+   -0.3,
+   36.3
+  ]
+ },
+ "SM_80s_CeilingLight": {
+  "file": "SM_80s_CeilingLight.glb",
+  "size_cm": [
+   161.04,
+   80.52,
+   11.36
+  ],
+  "tris": 60,
+  "min": [
+   -80.5,
+   -40.3,
+   -11.4
+  ],
+  "max": [
+   80.5,
+   40.3,
+   0.0
+  ]
+ }
+}
