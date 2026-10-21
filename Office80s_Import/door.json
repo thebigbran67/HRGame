@@ -1,0 +1,185 @@
+{
+ "components": [
+  {
+   "name": "None",
+   "cls": "BP_CubeDoor_C"
+  },
+  {
+   "name": "DefaultSceneRoot",
+   "cls": "SceneComponent",
+   "relative_location": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "relative_rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "relative_scale3d": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "parent": "None"
+  },
+  {
+   "name": "TextRender",
+   "cls": "TextRenderComponent",
+   "relative_location": [
+    30.0,
+    48.723,
+    110.381
+   ],
+   "relative_rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "relative_scale3d": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "parent": "DefaultSceneRoot"
+  },
+  {
+   "name": "TextRender",
+   "cls": "TextRenderComponent",
+   "relative_location": [
+    30.0,
+    48.723,
+    110.381
+   ],
+   "relative_rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "relative_scale3d": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "parent": "DefaultSceneRoot"
+  },
+  {
+   "name": "Cube",
+   "cls": "StaticMeshComponent",
+   "relative_location": [
+    0.0,
+    50.0,
+    110.0
+   ],
+   "relative_rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "relative_scale3d": [
+    0.2,
+    1.0,
+    2.2
+   ],
+   "parent": "DefaultSceneRoot",
+   "mesh": "/Engine/BasicShapes/Cube.Cube",
+   "mesh_bounds": [
+    -50.0,
+    -50.0,
+    -50.0,
+    50.0,
+    50.0,
+    50.0
+   ],
+   "mats": [
+    "/Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial"
+   ],
+   "collision": "BlockAllDynamic"
+  },
+  {
+   "name": "Cube",
+   "cls": "StaticMeshComponent",
+   "relative_location": [
+    0.0,
+    50.0,
+    110.0
+   ],
+   "relative_rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "relative_scale3d": [
+    0.2,
+    1.0,
+    2.2
+   ],
+   "parent": "DefaultSceneRoot",
+   "mesh": "/Engine/BasicShapes/Cube.Cube",
+   "mesh_bounds": [
+    -50.0,
+    -50.0,
+    -50.0,
+    50.0,
+    50.0,
+    50.0
+   ],
+   "mats": [
+    "/Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial"
+   ],
+   "collision": "BlockAllDynamic"
+  }
+ ],
+ "vars": [],
+ "functions": [],
+ "instance": {
+  "label": "BP_CubeDoor",
+  "loc": "<Struct 'Vector' (0x00000246DD747440) {x: 744.272144, y: -5793.967392, z: 20.000000}>",
+  "rot": "<Struct 'Rotator' (0x00000246DD747440) {pitch: -0.094344, yaw: -89.699544, roll: 0.715214}>",
+  "scale": "<Struct 'Vector' (0x00000246DD747440) {x: 0.695784, y: 3.040529, z: 1.877340}>"
+ },
+ "instance_comps": [
+  {
+   "name": "DefaultSceneRoot",
+   "cls": "SceneComponent",
+   "world": [
+    744,
+    -5794,
+    20
+   ],
+   "rel_scale": "<Struct 'Vector' (0x00000246BAE3CAB0) {x: 0.695784, y: 3.040529, z: 1.877340}>"
+  },
+  {
+   "name": "BillboardComponent_1",
+   "cls": "BillboardComponent",
+   "world": [
+    744,
+    -5794,
+    20
+   ],
+   "rel_scale": "<Struct 'Vector' (0x00000246C28E2BB0) {x: 0.500000, y: 0.500000, z: 0.500000}>"
+  },
+  {
+   "name": "Cube",
+   "cls": "StaticMeshComponent",
+   "world": [
+    899,
+    -5793,
+    225
+   ],
+   "rel_scale": "<Struct 'Vector' (0x00000246EE06F1B0) {x: 0.200000, y: 1.000000, z: 2.200000}>",
+   "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+   "name": "TextRender",
+   "cls": "TextRenderComponent",
+   "world": [
+    895,
+    -5814,
+    225
+   ],
+   "rel_scale": "<Struct 'Vector' (0x00000246C28E1DB0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+  }
+ ]
+}
