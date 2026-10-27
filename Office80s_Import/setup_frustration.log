@@ -1,0 +1,8 @@
+percent bound: True
+monster BP_Monster3 name 'Floor Manager'
+monster BP_Monster4 name 'Receptionist Gioh'
+monster BP_Monster name 'Janitor'
+monster BP_Monster2 name 'Boss'
+sprite top 298
+janitor tagged: BP_Monster
+frustration setup done

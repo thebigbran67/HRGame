@@ -1,0 +1,7 @@
+event K2Node_Event_0 'Event BeginPlay' pos <Struct 'IntPoint' (0x0000026E8DCDAB68) {x: 0, y: 0}> connected False
+event K2Node_Event_1 'Event ActorBeginOverlap' pos <Struct 'IntPoint' (0x0000026E8DCDA678) {x: 0, y: 208}> connected False
+event K2Node_Event_2 'Event Tick' pos <Struct 'IntPoint' (0x0000026E8DCDD9C0) {x: 0, y: 416}> connected False
+event K2Node_Event_3 'Event BeginPlay' pos <Struct 'IntPoint' (0x0000026E8DCDA988) {x: 0, y: -600}> connected True
+event K2Node_Event_4 'Event ReceiveDrawHUD' pos <Struct 'IntPoint' (0x0000026E8DCDB6D0) {x: 0, y: 200}> connected True
+removed 2
+new beginplay K2Node_Event_3 linked False

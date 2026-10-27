@@ -1,0 +1,9 @@
+/Game/FrustrationBar/WBP_Frustraion_Bar.WBP_Frustraion_Bar  WidgetBlueprint
+/Game/Blueprints/States/BP_Monster_Angry.BP_Monster_Angry  Blueprint
+/Game/Elevator/floor.floor  Blueprint
+ACTOR BP_Monster3 BP_Monster_C (3373,-1884,100)
+ACTOR BP_Monster_Angry BP_Monster_Angry_C (1810,-6930,60)
+ACTOR BP_Monster4 BP_Monster_C (1322,-4486,130)
+ACTOR BP_Monster BP_Monster_C (4685,-5037,20)
+ACTOR BP_QuestManager BP_QuestManager_C (-790,2290,20)
+ACTOR BP_Monster2 BP_Monster_C (5662,75,20)

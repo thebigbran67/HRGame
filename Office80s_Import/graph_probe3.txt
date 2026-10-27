@@ -1,0 +1,71 @@
+T Input|KeyboardEvents|Tab
+T Input|DebugEvents|KeyboardEvents|DebugKeyTab
+S Painting|DrawText
+S Utilities|FlowControl|Sequence
+S Utilities|FlowControl|Branch
+S HUD|GetTextSize
+S HUD|DrawTextureSimple
+S HUD|DrawTexture
+S HUD|DrawText
+S HUD|DrawRect
+S Canvas|DrawTexture
+S Canvas|DrawText
+S Utilities|Array|ForEachLoop
+node Utilities|FlowControl|Sequence -> <Object '/Game/Office80s/Temp/BP_Probe.BP_Probe:EventGraph.K2Node_ExecutionSequence_1' (0x0000026F8E06C240) Class 'K2Node_ExecutionSequence'>
+  Utilities|FlowControl|Sequence pin execute in Exec
+  Utilities|FlowControl|Sequence pin then_0 out Exec
+  Utilities|FlowControl|Sequence pin then_1 out Exec
+node Utilities|FlowControl|ForEachLoop -> None
+node Utilities|FlowControl|Branch -> <Object '/Game/Office80s/Temp/BP_Probe.BP_Probe:EventGraph.K2Node_IfThenElse_1' (0x0000026FD8F6F300) Class 'K2Node_IfThenElse'>
+  Utilities|FlowControl|Branch pin execute in Exec
+  Utilities|FlowControl|Branch pin Condition in Boolean
+  Utilities|FlowControl|Branch pin then out Exec
+  Utilities|FlowControl|Branch pin else out Exec
+drawhud <Object '/Game/Office80s/Temp/BP_Probe.BP_Probe:EventGraph.K2Node_Event_3' (0x0000026FD8C49900) Class 'K2Node_Event'>
+  draw pin OutputDelegate out Delegate
+  draw pin then out Exec
+  draw pin SizeX out Integer
+  draw pin SizeY out Integer
+fn /Script/Engine.HUD:DrawText -> <Object '/Game/Office80s/Temp/BP_Probe.BP_Probe:EventGraph.K2Node_CallFunction_1' (0x0000026FD8C4C600) Class 'K2Node_CallFunction'>
+  DrawText pin execute in Exec
+  DrawText pin self in HUD Object Reference
+  DrawText pin Text in String
+  DrawText pin TextColor in Linear Color Structure
+  DrawText pin ScreenX in Float (single-precision)
+  DrawText pin ScreenY in Float (single-precision)
+  DrawText pin Font in Font Object Reference
+  DrawText pin Scale in Float (single-precision)
+  DrawText pin bScalePosition in Boolean
+  DrawText pin then out Exec
+fn /Script/Engine.HUD:GetTextSize -> <Object '/Game/Office80s/Temp/BP_Probe.BP_Probe:EventGraph.K2Node_CallFunction_2' (0x0000026FD8C4D380) Class 'K2Node_CallFunction'>
+  GetTextSize pin self in HUD Object Reference
+  GetTextSize pin Text in String
+  GetTextSize pin Font in Font Object Reference
+  GetTextSize pin Scale in Float (single-precision)
+  GetTextSize pin OutWidth out Float (single-precision)
+  GetTextSize pin OutHeight out Float (single-precision)
+fn /Script/Engine.HUD:DrawRect -> <Object '/Game/Office80s/Temp/BP_Probe.BP_Probe:EventGraph.K2Node_CallFunction_3' (0x0000026FD8C4D200) Class 'K2Node_CallFunction'>
+  DrawRect pin execute in Exec
+  DrawRect pin self in HUD Object Reference
+  DrawRect pin RectColor in Linear Color Structure
+  DrawRect pin ScreenX in Float (single-precision)
+  DrawRect pin ScreenY in Float (single-precision)
+  DrawRect pin ScreenW in Float (single-precision)
+  DrawRect pin ScreenH in Float (single-precision)
+  DrawRect pin then out Exec
+fn /Script/Engine.KismetMathLibrary:SelectString -> <Object '/Game/Office80s/Temp/BP_Probe.BP_Probe:EventGraph.K2Node_CallFunction_4' (0x0000026FD8C4EB80) Class 'K2Node_CallFunction'>
+  SelectString pin A in String
+  SelectString pin B in String
+  SelectString pin bPickA in Boolean
+  SelectString pin ReturnValue out String
+fn /Script/Engine.KismetMathLibrary:SelectColor -> <Object '/Game/Office80s/Temp/BP_Probe.BP_Probe:EventGraph.K2Node_CallFunction_5' (0x0000026FD8C4F900) Class 'K2Node_CallFunction'>
+  SelectColor pin A in Linear Color Structure
+  SelectColor pin B in Linear Color Structure
+  SelectColor pin bPickA in Boolean
+  SelectColor pin ReturnValue out Linear Color Structure
+fn /Script/Engine.KismetStringLibrary:Concat_StrStr -> <Object '/Game/Office80s/Temp/BP_Probe.BP_Probe:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0' (0x0000026EACDD0D80) Class 'K2Node_CommutativeAssociativeBinaryOperator'>
+  Concat_StrStr pin A in String
+  Concat_StrStr pin B in String
+  Concat_StrStr pin ReturnValue out String
+world gm: None
+project gm: <Struct 'SoftClassPath' (0x0000026E0CE27BA0) {}>
