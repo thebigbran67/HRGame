@@ -1,0 +1,6 @@
+SFX_80s_TrashPickup: <Object '/Game/Office80s/Audio/SFX_80s_TrashPickup.SFX_80s_TrashPickup' (0x000001C5E2EAA000) Class 'SoundWave'>
+SFX_80s_DumpsterDrop: <Object '/Game/Office80s/Audio/SFX_80s_DumpsterDrop.SFX_80s_DumpsterDrop' (0x000001C5E2EABE00) Class 'SoundWave'>
+SFX_80s_Footstep: <Object '/Game/Office80s/Audio/SFX_80s_Footstep.SFX_80s_Footstep' (0x000001C5EBF2B400) Class 'SoundWave'>
+SFX_80s_ChairBonk: <Object '/Game/Office80s/Audio/SFX_80s_ChairBonk.SFX_80s_ChairBonk' (0x000001C5EBF21E00) Class 'SoundWave'>
+tagged 37 floating chairs
+audio setup done
