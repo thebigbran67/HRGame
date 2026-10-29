@@ -1,0 +1,8 @@
+/Game/Interaction/BP_Door.BP_Door Blueprint
+/Game/Interaction/BP_MasterItem.BP_MasterItem Blueprint
+/Game/Interaction/BPI_Interaction.BPI_Interaction Blueprint
+/Game/Interaction/icons8-crosshair-32.icons8-crosshair-32 Texture2D
+/Game/Interaction/letter-e-24.letter-e-24 Texture2D
+/Game/Interaction/M_Outline.M_Outline Material
+/Game/Interaction/UI_HUD.UI_HUD WidgetBlueprint
+/Game/Interaction/UI_Interact.UI_Interact WidgetBlueprint

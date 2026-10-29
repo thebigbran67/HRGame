@@ -1,0 +1,21 @@
+Default__BP_FirstPersonCharacter_C BP_FirstPersonCharacter_C
+CollisionCylinder CapsuleComponent
+Arrow ArrowComponent
+CameraComponent_0__CCE3C0B4 CameraComponent
+CharacterMesh0 SkeletalMeshComponent | skeletal_mesh_asset=<Object '/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple' (0x000001B97C6BC800) Class 'SkeletalMesh'> | anim_class=<Object '/Game/Characters/Mannequins/Anims/Unarmed/ABP_Unarmed.ABP_Unarmed_C' (0x000001B97B2F7000) Class 'AnimBlueprintGeneratedClass'> | animation_mode=<AnimationMode.ANIMATION_BLUEPRINT: 0> | visible=True | only_owner_see=False | first_person_primitive_type=<FirstPersonPrimitiveType.WORLD_SPACE_REPRESENTATION: 2>
+FirstPersonMesh_GEN_VARIABLE SkeletalMeshComponent | skeletal_mesh_asset=<Object '/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple' (0x000001B97C6BC800) Class 'SkeletalMesh'> | anim_class=<Object '/Game/FirstPerson/Anims/ABP_FP_Copy.ABP_FP_Copy_C' (0x000001B97B2F0000) Class 'AnimBlueprintGeneratedClass'> | animation_mode=<AnimationMode.ANIMATION_BLUEPRINT: 0> | visible=True | only_owner_see=True | first_person_primitive_type=<FirstPersonPrimitiveType.FIRST_PERSON: 1>
+CameraComponent_0__CCE3C0B4 CameraComponent
+CharMoveComp CharacterMovementComponent
+parent <Object '/Script/Engine.Character' (0x00007FF438AFB970) Class 'Class'>
+cdo comp CharacterMesh0 anim=<Object '/Game/Characters/Mannequins/Anims/Unarmed/ABP_Unarmed.ABP_Unarmed_C' (0x000001B97B2F7000) Class 'AnimBlueprintGeneratedClass'> mode=<AnimationMode.ANIMATION_BLUEPRINT: 0> mesh=<Object '/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple' (0x000001B97C6BC800) Class 'SkeletalMesh'>
+asset /Game/Characters/Mannequins/Anims/Pistol/Aim/MF_Pistol_Idle_ADS1.MF_Pistol_Idle_ADS1
+asset /Game/Characters/Mannequins/Anims/Pistol/Aim/MF_Pistol_Idle_ADS_AO_CD.MF_Pistol_Idle_ADS_AO_CD
+asset /Game/Characters/Mannequins/Anims/Pistol/Aim/MF_Pistol_Idle_ADS_AO_CU.MF_Pistol_Idle_ADS_AO_CU
+asset /Game/Characters/Mannequins/Anims/Pistol/MF_Pistol_Idle_ADS.MF_Pistol_Idle_ADS
+asset /Game/Characters/Mannequins/Anims/Rifle/AIM/MM_Rifle_Idle_ADS_AO_CC.MM_Rifle_Idle_ADS_AO_CC
+asset /Game/Characters/Mannequins/Anims/Rifle/AIM/MM_Rifle_Idle_ADS_AO_CD.MM_Rifle_Idle_ADS_AO_CD
+asset /Game/Characters/Mannequins/Anims/Rifle/AIM/MM_Rifle_Idle_ADS_AO_CU.MM_Rifle_Idle_ADS_AO_CU
+asset /Game/Characters/Mannequins/Anims/Rifle/MF_Rifle_Idle_ADS.MF_Rifle_Idle_ADS
+asset /Game/Characters/Mannequins/Anims/Unarmed/ABP_Unarmed.ABP_Unarmed
+asset /Game/Characters/Mannequins/Anims/Unarmed/BS_Idle_Walk_Run.BS_Idle_Walk_Run
+asset /Game/Characters/Mannequins/Anims/Unarmed/MM_Idle.MM_Idle
