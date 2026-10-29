@@ -1,6 +1,6 @@
 ground fn: /Script/Engine.NavMovementComponent:IsMovingOnGround
 removed 0 unused default events
-old HUD class: <Object '/Game/TaskSystem/BP_TaskHUD.BP_TaskHUD_C' (0x000001C52592E000) Class 'BlueprintGeneratedClass'>
-HUD class now: <Object '/Game/TaskSystem/BP_TaskHUD.BP_TaskHUD_C' (0x000001C52592E000) Class 'BlueprintGeneratedClass'>
+old HUD class: <Object '/Game/TaskSystem/BP_TaskHUD.BP_TaskHUD_C' (0x000001570FC8A800) Class 'BlueprintGeneratedClass'>
+HUD class now: <Object '/Game/TaskSystem/BP_TaskHUD.BP_TaskHUD_C' (0x000001570FC8A800) Class 'BlueprintGeneratedClass'>
 always-loaded set on 0 actors
 task HUD built

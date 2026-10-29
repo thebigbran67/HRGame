@@ -1,0 +1,7 @@
+pawn class: <Object '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C' (0x00000156A34AA800) Class 'BlueprintGeneratedClass'>
+/Game/Input/IMC_Default.IMC_Default: 0 -> 0
+/Game/Input/IMC_MouseLook.IMC_MouseLook: 0 -> 0
+/Game/Variant_Horror/Input/IMC_Horror.IMC_Horror: 0 -> 0
+/Game/Variant_Shooter/Input/IMC_Weapons.IMC_Weapons: 0 -> 0
+/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter jump_max_count=0
+/Game/Variant_Horror/Blueprints/BP_HorrorCharacter jump_max_count=0
