@@ -1,0 +1,4 @@
+character template 750.0 -> 650.0
+/Game/Blueprints/Dialogue/Widgets/W_MonsterTalk K2Node_VariableSet_4 850.0 -> 650.0
+/Game/Blueprints/Dialogue/Widgets/W_MonsterTalk K2Node_VariableSet_1 1100.0 -> 650.0
+/Game/Dialogue/Widgets/W_MonsterTalk K2Node_VariableSet_1 1100.0 -> 650.0

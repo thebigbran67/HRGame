@@ -1,0 +1,13 @@
+/Game/Blueprints/Dialogue/Blueprints/BP_Monster | EventGraph | K2Node_VariableSet_2 | MaxWalkSpeed | value=0.0 | linked=0
+/Game/Blueprints/Dialogue/Widgets/W_MonsterTalk | EventGraph | K2Node_VariableSet_4 | MaxWalkSpeed | value=850.000000 | linked=0
+/Game/Blueprints/Dialogue/Widgets/W_MonsterTalk | EventGraph | K2Node_VariableSet_1 | MaxWalkSpeed | value=1100.000000 | linked=0
+/Game/Blueprints/States/BP_Monster_Angry | EventGraph | K2Node_VariableSet_2 | MaxWalkSpeed | value=0.0 | linked=0
+/Game/Dialogue/Widgets/W_MonsterTalk | EventGraph | K2Node_VariableSet_1 | MaxWalkSpeed | value=1100.000000 | linked=0
+/Game/Variant_Horror/Blueprints/BP_HorrorCharacter | EventGraph | K2Node_VariableSet_12 | MaxWalkSpeed | value=0.0 | linked=1
+/Game/Variant_Horror/Blueprints/BP_HorrorCharacter | EventGraph | K2Node_VariableSet_9 | MaxWalkSpeed | value=0.0 | linked=1
+/Game/Variant_Horror/Blueprints/BP_HorrorCharacter | EventGraph | K2Node_VariableSet_18 | MaxWalkSpeed | value=0.0 | linked=1
+/Game/Variant_Horror/Blueprints/BP_HorrorCharacter | EventGraph | K2Node_VariableSet_15 | MaxWalkSpeed | value=0.0 | linked=1
+TEMPLATE /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter walk=750.0 accel=2048.0
+CDO /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter walk=750.0
+TEMPLATE /Game/Variant_Horror/Blueprints/BP_HorrorCharacter walk=250.0 accel=2048.0
+CDO /Game/Variant_Horror/Blueprints/BP_HorrorCharacter walk=250.0

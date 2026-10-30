@@ -1,6 +1,7 @@
+shift key node: Input|KeyboardEvents|LeftShift
 ground fn: /Script/Engine.NavMovementComponent:IsMovingOnGround
 removed 0 unused default events
-old HUD class: <Object '/Game/TaskSystem/BP_TaskHUD.BP_TaskHUD_C' (0x000001B99CBA0000) Class 'BlueprintGeneratedClass'>
-HUD class now: <Object '/Game/TaskSystem/BP_TaskHUD.BP_TaskHUD_C' (0x000001B99CBA0000) Class 'BlueprintGeneratedClass'>
+old HUD class: <Object '/Game/TaskSystem/BP_TaskHUD.BP_TaskHUD_C' (0x0000026B8C720E00) Class 'BlueprintGeneratedClass'>
+HUD class now: <Object '/Game/TaskSystem/BP_TaskHUD.BP_TaskHUD_C' (0x0000026B8C720E00) Class 'BlueprintGeneratedClass'>
 always-loaded set on 0 actors
 task HUD built

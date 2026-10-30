@@ -1,0 +1,4 @@
+camera CameraComponent_0__CCE3C0B4 rel=<Struct 'Vector' (0x0000026B78290D80) {x: 2.793880, y: 5.880724, z: 0.000000}> rot=<Struct 'Rotator' (0x0000026B78290D98) {pitch: -0.000000, yaw: 89.999999, roll: -89.999999}> socket=? pawnrot=True
+mesh CharacterMesh0 rel=<Struct 'Vector' (0x0000026B7818B580) {x: -20.000000, y: -0.000000, z: -96.000000}> rot=<Struct 'Rotator' (0x0000026B7818B598) {pitch: 0.000000, yaw: -89.999999, roll: 0.000000}>
+mesh FirstPersonMesh_GEN_VARIABLE rel=<Struct 'Vector' (0x0000026B78182980) {x: 0.000000, y: 0.000000, z: 0.000000}> rot=<Struct 'Rotator' (0x0000026B78182998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>
+camera CameraComponent_0__CCE3C0B4 rel=<Struct 'Vector' (0x0000026B78290D80) {x: 2.793880, y: 5.880724, z: 0.000000}> rot=<Struct 'Rotator' (0x0000026B78290D98) {pitch: -0.000000, yaw: 89.999999, roll: -89.999999}> socket=? pawnrot=True
