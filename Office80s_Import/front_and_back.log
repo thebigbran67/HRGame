@@ -1,0 +1,4 @@
+moved 342 yard actors behind the building; dump now at <Struct 'Vector' (0x000002E689B116E0) {x: 3853.110743, y: 9869.644334, z: 22.914459}>
+PlayerStart moved next to the car
+navmesh bounds now (<Struct 'Vector' (0x000002E80FC5DCD0) {x: 3600.000000, y: 1250.000000, z: 740.000000}>, <Struct 'Vector' (0x000002E80FC5D7D0) {x: 5100.000000, y: 10800.000000, z: 890.625000}>)
+front lot built
