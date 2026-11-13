@@ -1,0 +1,198 @@
+Begin Object Class=/Script/UMGEditor.WidgetBlueprint Name="UI_Interact" ExportPath="/Script/UMGEditor.WidgetBlueprint'/Game/Interaction/UI_Interact.UI_Interact'"
+   Begin Object Class=/Script/UMG.WidgetTree Name="WidgetTree" Archetype="/Script/UMG.WidgetTree'/Script/UMGEditor.Default__WidgetBlueprint:WidgetTree'" ExportPath="/Script/UMG.WidgetTree'/Game/Interaction/UI_Interact.UI_Interact:WidgetTree'"
+      Begin Object Class=/Script/UMG.Border Name="Border_71" ExportPath="/Script/UMG.Border'/Game/Interaction/UI_Interact.UI_Interact:WidgetTree.Border_71'"
+         Begin Object Class=/Script/UMG.BorderSlot Name="BorderSlot_0" ExportPath="/Script/UMG.BorderSlot'/Game/Interaction/UI_Interact.UI_Interact:WidgetTree.Border_71.BorderSlot_0'"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.VerticalBox Name="VerticalBox_69" ExportPath="/Script/UMG.VerticalBox'/Game/Interaction/UI_Interact.UI_Interact:WidgetTree.VerticalBox_69'"
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_0" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Interaction/UI_Interact.UI_Interact:WidgetTree.VerticalBox_69.VerticalBoxSlot_0'"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Image Name="Image_140" ExportPath="/Script/UMG.Image'/Game/Interaction/UI_Interact.UI_Interact:WidgetTree.Image_140'"
+      End Object
+   End Object
+   Begin Object Class=/Script/UMG.WidgetAnimation Name="Popup" ExportPath="/Script/UMG.WidgetAnimation'/Game/Interaction/UI_Interact.UI_Interact:Popup'"
+      Begin Object Class=/Script/MovieScene.MovieScene Name="Popup" ExportPath="/Script/MovieScene.MovieScene'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup'"
+         Begin Object Class=/Script/MovieScene.MovieSceneNodeGroupCollection Name="NodeGroupCollection" Archetype="/Script/MovieScene.MovieSceneNodeGroupCollection'/Script/MovieScene.Default__MovieScene:NodeGroupCollection'" ExportPath="/Script/MovieScene.MovieSceneNodeGroupCollection'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup.NodeGroupCollection'"
+         End Object
+         Begin Object Class=/Script/MovieSceneTracks.MovieSceneFloatTrack Name="MovieSceneFloatTrack_0" ExportPath="/Script/MovieSceneTracks.MovieSceneFloatTrack'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup.MovieSceneFloatTrack_0'"
+            Begin Object Class=/Script/MovieSceneTracks.MovieSceneFloatSection Name="MovieSceneFloatSection_0" ExportPath="/Script/MovieSceneTracks.MovieSceneFloatSection'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneFloatSection:EaseInFunction'" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'"
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneFloatSection:EaseOutFunction'" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'"
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/UMG.MovieScene2DTransformTrack Name="MovieScene2DTransformTrack_3" ExportPath="/Script/UMG.MovieScene2DTransformTrack'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup.MovieScene2DTransformTrack_3'"
+            Begin Object Class=/Script/UMG.MovieScene2DTransformSection Name="MovieScene2DTransformSection_0" ExportPath="/Script/UMG.MovieScene2DTransformSection'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup.MovieScene2DTransformTrack_3.MovieScene2DTransformSection_0'"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseInFunction'" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup.MovieScene2DTransformTrack_3.MovieScene2DTransformSection_0.EaseInFunction'"
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseOutFunction'" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup.MovieScene2DTransformTrack_3.MovieScene2DTransformSection_0.EaseOutFunction'"
+               End Object
+            End Object
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/Interaction/UI_Interact.UI_Interact:EventGraph'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_0" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/Interaction/UI_Interact.UI_Interact:EventGraph.K2Node_Event_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_1" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/Interaction/UI_Interact.UI_Interact:EventGraph.K2Node_Event_1'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_2" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/Interaction/UI_Interact.UI_Interact:EventGraph.K2Node_Event_2'"
+      End Object
+   End Object
+   Begin Object Name="WidgetTree" ExportPath="/Script/UMG.WidgetTree'/Game/Interaction/UI_Interact.UI_Interact:WidgetTree'"
+      Begin Object Name="Border_71" ExportPath="/Script/UMG.Border'/Game/Interaction/UI_Interact.UI_Interact:WidgetTree.Border_71'"
+         Begin Object Name="BorderSlot_0" ExportPath="/Script/UMG.BorderSlot'/Game/Interaction/UI_Interact.UI_Interact:WidgetTree.Border_71.BorderSlot_0'"
+            Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+            HorizontalAlignment=HAlign_Center
+            Parent="/Script/UMG.Border'UI_Interact:WidgetTree.Border_71'"
+            Content="/Script/UMG.Image'UI_Interact:WidgetTree.Image_140'"
+         End Object
+         HorizontalAlignment=HAlign_Center
+         Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+         BrushColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+         Slots(0)="/Script/UMG.BorderSlot'BorderSlot_0'"
+         Slot="/Script/UMG.VerticalBoxSlot'UI_Interact:WidgetTree.VerticalBox_69.VerticalBoxSlot_0'"
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="VerticalBox_69" ExportPath="/Script/UMG.VerticalBox'/Game/Interaction/UI_Interact.UI_Interact:WidgetTree.VerticalBox_69'"
+         Begin Object Name="VerticalBoxSlot_0" ExportPath="/Script/UMG.VerticalBoxSlot'/Game/Interaction/UI_Interact.UI_Interact:WidgetTree.VerticalBox_69.VerticalBoxSlot_0'"
+            Parent="/Script/UMG.VerticalBox'UI_Interact:WidgetTree.VerticalBox_69'"
+            Content="/Script/UMG.Border'UI_Interact:WidgetTree.Border_71'"
+         End Object
+         Slots(0)="/Script/UMG.VerticalBoxSlot'VerticalBoxSlot_0'"
+         bExpandedInDesigner=True
+         RenderOpacity=0.000000
+         DisplayLabel="VerticalBox_69"
+      End Object
+      Begin Object Name="Image_140" ExportPath="/Script/UMG.Image'/Game/Interaction/UI_Interact.UI_Interact:WidgetTree.Image_140'"
+         Brush=(ImageType=FullColor,ImageSize=(X=70.000000,Y=120.000000),ResourceObject="/Script/Engine.Texture2D'/Game/Interaction/letter-e-24.letter-e-24'")
+         Slot="/Script/UMG.BorderSlot'UI_Interact:WidgetTree.Border_71.BorderSlot_0'"
+      End Object
+      RootWidget="/Script/UMG.VerticalBox'VerticalBox_69'"
+   End Object
+   Begin Object Name="Popup" ExportPath="/Script/UMG.WidgetAnimation'/Game/Interaction/UI_Interact.UI_Interact:Popup'"
+      Begin Object Name="Popup" ExportPath="/Script/MovieScene.MovieScene'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup'"
+         Begin Object Name="NodeGroupCollection" ExportPath="/Script/MovieScene.MovieSceneNodeGroupCollection'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup.NodeGroupCollection'"
+         End Object
+         Begin Object Name="MovieSceneFloatTrack_0" ExportPath="/Script/MovieSceneTracks.MovieSceneFloatTrack'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup.MovieSceneFloatTrack_0'"
+            Begin Object Name="MovieSceneFloatSection_0" ExportPath="/Script/MovieSceneTracks.MovieSceneFloatSection'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'"
+               Begin Object Name="EaseInFunction" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'"
+               End Object
+               Begin Object Name="EaseOutFunction" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'"
+               End Object
+               FloatCurve=(Times=((),(Value=12000)),Values=((),(Value=1.000000)))
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'UI_Interact:Popup.Popup.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'UI_Interact:Popup.Popup.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction')
+               SectionRange=Inclusive:0:Inclusive:12000
+               Signature=C7DFF04E4857335E6E0C708C978BD155
+            End Object
+            PropertyBinding=(PropertyName="RenderOpacity",PropertyPath="RenderOpacity",bCanUseClassLookup=True)
+            Sections(0)="/Script/MovieSceneTracks.MovieSceneFloatSection'MovieSceneFloatSection_0'"
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Widget:RenderOpacity", "Render Opacity")
+            EvaluationFieldGuid=7C9342C341851DB946B0F8A65820F9E0
+            EvaluationField=(Entries=((Section="/Script/MovieSceneTracks.MovieSceneFloatSection'MovieSceneFloatSection_0'",Range=(LowerBound=(Type=Inclusive),UpperBound=(Type=Inclusive,Value=(Value=12000))),ForcedTime=(Value=-2147483648))))
+            Signature=7C9342C341851DB946B0F8A65820F9E0
+         End Object
+         Begin Object Name="MovieScene2DTransformTrack_3" ExportPath="/Script/UMG.MovieScene2DTransformTrack'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup.MovieScene2DTransformTrack_3'"
+            Begin Object Name="MovieScene2DTransformSection_0" ExportPath="/Script/UMG.MovieScene2DTransformSection'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup.MovieScene2DTransformTrack_3.MovieScene2DTransformSection_0'"
+               Begin Object Name="EaseInFunction" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup.MovieScene2DTransformTrack_3.MovieScene2DTransformSection_0.EaseInFunction'"
+               End Object
+               Begin Object Name="EaseOutFunction" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/Interaction/UI_Interact.UI_Interact:Popup.Popup.MovieScene2DTransformTrack_3.MovieScene2DTransformSection_0.EaseOutFunction'"
+               End Object
+               Translation(0)=(Times=((Value=12000)),Values=(()))
+               Translation(1)=(Times=((Value=12000)),Values=(()))
+               Rotation=(Times=((Value=12000)),Values=(()))
+               Scale(0)=(Times=((),(Value=6000),(Value=12000)),Values=((),(Value=0.200000,Tangent=(ArriveTangent=0.000050,LeaveTangent=0.000050)),(Value=1.000000)))
+               Scale(1)=(Times=((),(Value=6000),(Value=12000)),Values=((),(Value=0.200000,Tangent=(ArriveTangent=0.000050,LeaveTangent=0.000050)),(Value=1.000000)))
+               Shear(0)=(Times=((Value=12000)),Values=(()))
+               Shear(1)=(Times=((Value=12000)),Values=(()))
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'UI_Interact:Popup.Popup.MovieScene2DTransformTrack_3.MovieScene2DTransformSection_0.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'UI_Interact:Popup.Popup.MovieScene2DTransformTrack_3.MovieScene2DTransformSection_0.EaseOutFunction')
+               SectionRange=Inclusive:0:Inclusive:12000
+               Signature=67A7149E4945D33FE44610B29611AF3A
+            End Object
+            PropertyBinding=(PropertyName="RenderTransform",PropertyPath="RenderTransform",bCanUseClassLookup=True)
+            Sections(0)="/Script/UMG.MovieScene2DTransformSection'MovieScene2DTransformSection_0'"
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Widget:RenderTransform", "Transform")
+            EvaluationFieldGuid=5171C0524B34CF3C0EA198A51FE7AED8
+            EvaluationField=(Entries=((Section="/Script/UMG.MovieScene2DTransformSection'MovieScene2DTransformSection_0'",Range=(LowerBound=(Type=Inclusive),UpperBound=(Type=Inclusive,Value=(Value=12000))),ForcedTime=(Value=-2147483648))))
+            Signature=5171C0524B34CF3C0EA198A51FE7AED8
+         End Object
+         Possessables(0)=(Guid=5C33026C4857E63B1F92CDB9D35C2B3F,Name="VerticalBox_69",PossessedObjectClass="/Script/UMG.VerticalBox")
+         ObjectBindings(0)=(ObjectGuid=5C33026C4857E63B1F92CDB9D35C2B3F,Tracks=("/Script/MovieSceneTracks.MovieSceneFloatTrack'MovieSceneFloatTrack_0'","/Script/UMG.MovieScene2DTransformTrack'MovieScene2DTransformTrack_3'"))
+         PlaybackRange=Inclusive:0:Exclusive:12001
+         DisplayRate=(Numerator=20)
+         EditorData=(ExpansionStates=(("5C33026C4857E63B1F92CDB9D35C2B3F.MovieScene2DTransformTrack_0", ()),("5C33026C4857E63B1F92CDB9D35C2B3F.MovieScene2DTransformTrack_0.Scale", ()),("5C33026C4857E63B1F92CDB9D35C2B3F.MovieScene2DTransformTrack_2", ()),("5C33026C4857E63B1F92CDB9D35C2B3F.MovieScene2DTransformTrack_2.Scale", ()),("5C33026C4857E63B1F92CDB9D35C2B3F.MovieScene2DTransformTrack_3", ()),("5C33026C4857E63B1F92CDB9D35C2B3F.MovieScene2DTransformTrack_3.Scale", ())))
+         NodeGroupCollection="NodeGroupCollection"
+         Signature=340F8EEA4B549D12CEC32F8546555E7A
+      End Object
+      MovieScene="/Script/MovieScene.MovieScene'Popup'"
+      AnimationBindings(0)=(WidgetName="VerticalBox_69",AnimationGuid=5C33026C4857E63B1F92CDB9D35C2B3F)
+      DisplayLabel="Popup"
+      Signature=5CBA88C047EC0B340383E09840D60E6F
+   End Object
+   Begin Object Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/Interaction/UI_Interact.UI_Interact:EventGraph'"
+      Begin Object Name="K2Node_Event_0" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/Interaction/UI_Interact.UI_Interact:EventGraph.K2Node_Event_0'"
+         EventReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="PreConstruct")
+         bOverrideFunction=True
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=91E7017246903B45C3EE5ABDE2F0CC21
+         CustomProperties Pin (PinId=662D06D2469B398C688D2588F87F7AE6,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="PreConstruct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=FEEDEAB34F8819FDFA76D7A6CB27E0AC,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D5CB3C7B4A6B202E2299F8BE2D4358D4,PinName="IsDesignTime",PinToolTip="Is Design Time\nBoolean",Direction="EGPD_Output",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="false",AutogeneratedDefaultValue="false",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_1" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/Interaction/UI_Interact.UI_Interact:EventGraph.K2Node_Event_1'"
+         EventReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="Construct")
+         bOverrideFunction=True
+         NodePosY=208
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=5AC3581C425E596E5BE5AD957818AD6D
+         CustomProperties Pin (PinId=75CCA08142DF1894015C8CBFC540220A,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="Construct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=4C99C4644790F264F232A2A7B9A12485,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_2" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/Interaction/UI_Interact.UI_Interact:EventGraph.K2Node_Event_2'"
+         EventReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="Tick")
+         bOverrideFunction=True
+         NodePosY=416
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=AD758CEC47F2AFFF1A7CD88A77AE99DF
+         CustomProperties Pin (PinId=439E8127437916EA5E588590111FC7F2,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="Tick"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A9F0FA644024F7E799E6A9A18ECD7935,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=AC75506945A3FBAFE87A58920954FCB3,PinName="MyGeometry",PinToolTip="My Geometry\nGeometry Structure\n\nThe space allotted for this widget",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/SlateCore.Geometry'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=1EBD2CCA4A820BA629C740AAE011DAF0,PinName="InDeltaTime",PinToolTip="In Delta Time\nFloat (single-precision)\n\nReal time passed since last tick",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_Event'K2Node_Event_0'"
+      Nodes(1)="/Script/BlueprintGraph.K2Node_Event'K2Node_Event_1'"
+      Nodes(2)="/Script/BlueprintGraph.K2Node_Event'K2Node_Event_2'"
+      bAllowDeletion=False
+      GraphGuid=A628DF9144261796789E1AB70175D39F
+   End Object
+   Animations(0)="/Script/UMG.WidgetAnimation'Popup'"
+   WidgetVariableNameToGuidMap=(("VerticalBox_69", B8A96D5342F52D611CAA4FAF5C298C9B),("Border_71", D90BA4844774AC59C760C0B375EE6115),("Image_140", F8188F7B41A7B58B5CA5FAB97B5A3C1B),("Popup", 7A61BBCC4730EE8ACAFECA8A6F054FCB))
+   bCanCallInitializedWithoutPlayerContext=True
+   TickPrediction=OnDemand
+   TickPredictionReason="Anim"
+   WidgetTree="WidgetTree"
+   ParentClass="/Script/CoreUObject.Class'/Script/UMG.UserWidget'"
+   BlueprintSystemVersion=2
+   UbergraphPages(0)="/Script/Engine.EdGraph'EventGraph'"
+   GeneratedVariables(0)=(VarName="Image_140",VarGuid=F8188F7B41A7B58B5CA5FAB97B5A3C1B,VarType=(PinCategory="object",PinSubCategoryObject="/Script/CoreUObject.Class'/Script/UMG.Image'"),FriendlyName="Image_140",PropertyFlags=562952101494812,MetaDataArray=((DataKey="Category",DataValue="UI_Interact")))
+   GeneratedVariables(1)=(VarName="Popup",VarGuid=7A61BBCC4730EE8ACAFECA8A6F054FCB,VarType=(PinCategory="object",PinSubCategoryObject="/Script/CoreUObject.Class'/Script/UMG.WidgetAnimation'",bIsReference=True),FriendlyName="Popup",PropertyFlags=2147491860,MetaDataArray=((DataKey="Category",DataValue="Animations")))
+   CategorySorting(0)="Event Graph"
+   CategorySorting(1)="UI Interact"
+   CategorySorting(2)="Animations"
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/Interaction/UI_Interact.UI_Interact:EventGraph")
+   GeneratedClass="/Script/UMG.WidgetBlueprintGeneratedClass'UI_Interact_C'"
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=2142273148883A6EA13036A4EBA5B0A2
+End Object

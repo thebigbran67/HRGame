@@ -1,0 +1,47 @@
+Begin Object Class=/Script/Engine.Blueprint Name="BPI_Interaction" ExportPath="/Script/Engine.Blueprint'/Game/Interaction/BPI_Interaction.BPI_Interaction'"
+   Begin Object Class=/Script/Engine.EdGraph Name="Interact" ExportPath="/Script/Engine.EdGraph'/Game/Interaction/BPI_Interaction.BPI_Interaction:Interact'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Interaction/BPI_Interaction.BPI_Interaction:Interact.K2Node_FunctionEntry_0'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="Can Recieve Trace" ExportPath="/Script/Engine.EdGraph'/Game/Interaction/BPI_Interaction.BPI_Interaction:Can Recieve Trace'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Interaction/BPI_Interaction.BPI_Interaction:Can Recieve Trace.K2Node_FunctionEntry_0'"
+      End Object
+   End Object
+   Begin Object Name="Interact" ExportPath="/Script/Engine.EdGraph'/Game/Interaction/BPI_Interaction.BPI_Interaction:Interact'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Interaction/BPI_Interaction.BPI_Interaction:Interact.K2Node_FunctionEntry_0'"
+         ExtraFlags=201457664
+         FunctionReference=(MemberName="Interact")
+         bIsEditable=True
+         NodeGuid=EC7576F6467197E463281E9C7F60EFF7
+         CustomProperties Pin (PinId=15CDB0F245FB87CD3856858BEC0069B8,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      GraphGuid=D6CC46D94308ACDB5639EB86392136ED
+   End Object
+   Begin Object Name="Can Recieve Trace" ExportPath="/Script/Engine.EdGraph'/Game/Interaction/BPI_Interaction.BPI_Interaction:Can Recieve Trace'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Interaction/BPI_Interaction.BPI_Interaction:Can Recieve Trace.K2Node_FunctionEntry_0'"
+         ExtraFlags=201457664
+         FunctionReference=(MemberName="Can Recieve Trace")
+         bIsEditable=True
+         NodeGuid=F9E50F6C47FE2C1DF7F4F49221F5356B
+         CustomProperties Pin (PinId=8546D8EC4E768FB44C178F93132DF121,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=EA64C0AE45DE5174B82EB3818D484030,PinName="Can Interact",Direction="EGPD_Output",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties UserDefinedPin (PinName="Can Interact",PinType=(PinCategory="bool"),DesiredPinDirection=EGPD_Output)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      GraphGuid=9A0CBE71486864D5126D8987EC49D81E
+   End Object
+   ParentClass="/Script/CoreUObject.Class'/Script/CoreUObject.Interface'"
+   BlueprintType=BPTYPE_Interface
+   BlueprintSystemVersion=2
+   FunctionGraphs(0)="/Script/Engine.EdGraph'Interact'"
+   FunctionGraphs(1)="/Script/Engine.EdGraph'Can Recieve Trace'"
+   CategorySorting(0)=""
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/Interaction/BPI_Interaction.BPI_Interaction:Interact",SavedViewOffset=(X=-613.842468,Y=-404.625000),SavedZoomAmount=1.000000)
+   LastEditedDocuments(1)=(EditedObjectPath="/Game/Interaction/BPI_Interaction.BPI_Interaction:Can Recieve Trace",SavedViewOffset=(X=-613.842468,Y=-404.625000),SavedZoomAmount=1.000000)
+   GeneratedClass="/Script/Engine.BlueprintGeneratedClass'BPI_Interaction_C'"
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=91AF872A453B76EDF7C041BB84852286
+End Object

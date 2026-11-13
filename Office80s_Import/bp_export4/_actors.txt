@@ -1,0 +1,2 @@
+BP_Monster class=/Game/Blueprints/Dialogue/Blueprints/BP_Monster.BP_Monster_C
+BP_Monster2 class=/Game/Blueprints/Dialogue/Blueprints/BP_Monster.BP_Monster_C

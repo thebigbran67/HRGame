@@ -1,0 +1,138 @@
+{
+"T_UI_Memo": [
+680.0,
+220.0
+],
+"T_UI_Line_Janitor": [
+304.5,
+40.0
+],
+"T_UI_Line_Trash": [
+289.0,
+40.0
+],
+"T_UI_Line_Dump": [
+491.5,
+40.0
+],
+"T_UI_Digits": [
+264.0,
+40.0
+],
+"T_UI_Check_Empty": [
+40.0,
+40.0
+],
+"T_UI_Check_Done": [
+40.0,
+40.0
+],
+"T_UI_Stamp_New": [
+340.0,
+130.0
+],
+"T_UI_Stamp_Done": [
+340.0,
+130.0
+],
+"T_UI_Eye": [
+80.0,
+80.0
+],
+"T_UI_Pupil": [
+40.0,
+40.0
+],
+"T_UI_Lid": [
+80.0,
+80.0
+],
+"T_UI_Drip": [
+28.0,
+120.0
+],
+"T_UI_Drop": [
+16.0,
+22.0
+],
+"T_UI_NoteTab": [
+320.0,
+140.0
+],
+"T_UI_Prompt_Interact": [
+371.0,
+96.0
+],
+"T_UI_Prompt_Dump": [
+464.0,
+96.0
+],
+"T_UI_SprintFrame": [
+440.0,
+40.0
+],
+"T_UI_SprintFill": [
+128.0,
+24.0
+],
+"T_UI_SprintLabel": [
+250.0,
+44.0
+],
+"T_UI_SprintOut": [
+214.5,
+36.5
+],
+"T_UI_Caution": [
+420.0,
+120.0
+],
+"T_UI_DeathVignette": [
+1920,
+1080
+],
+"T_UI_DeathClaw": [
+900.0,
+520.0
+],
+"T_UI_DeathTitle": [
+673.0,
+177.0
+],
+"T_UI_DeathSub": [
+900.0,
+60.0
+],
+"T_UI_Plus1": [
+46.0,
+43.0
+],
+"T_UI_SubText": [
+1054.5,
+56.0
+],
+"T_UI_SubBox": [
+1134.5,
+120
+],
+"T_UI_MirrorText": [
+766.5,
+56.0
+],
+"T_UI_MirrorBox": [
+846.5,
+120
+],
+"T_UI_PromptL": [
+186,
+96
+],
+"T_UI_PromptM": [
+64,
+96
+],
+"T_UI_PromptR": [
+40,
+96
+]
+}

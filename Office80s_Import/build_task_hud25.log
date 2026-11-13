@@ -1,0 +1,12 @@
+task title font: /Engine/EngineFonts/DroidSansMono.DroidSansMono
+ui textures: 34
+movement defaults friction/braking/accel: (8.0, 2048.0, 2048.0)
+shift key node: Input|KeyboardEvents|LeftShift
+ground fn: /Script/Engine.NavMovementComponent:IsMovingOnGround
+space key node: Input|KeyboardEvents|SpaceBar
+removed 0 unused default events
+task list: <Object '/Game/TaskSystem/TaskManager/DA_TaskManager.DA_TaskManager' (0x0000026935A70870) Class 'BPD_TaskList_C'>
+old HUD class: <Object '/Game/TaskSystem/BP_TaskHUD.BP_TaskHUD_C' (0x000002696BF5B600) Class 'BlueprintGeneratedClass'>
+HUD class now: <Object '/Game/TaskSystem/BP_TaskHUD.BP_TaskHUD_C' (0x000002696BF5B600) Class 'BlueprintGeneratedClass'>
+always-loaded set on 0 actors
+task HUD built

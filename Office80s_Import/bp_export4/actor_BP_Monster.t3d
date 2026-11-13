@@ -1,0 +1,73 @@
+Begin Object Class=/Game/Blueprints/Dialogue/Blueprints/BP_Monster.BP_Monster_C Name="BP_Monster_C_UAID_1C697ABD3C7D630003_1484125256" ExportPath="/Game/Blueprints/Dialogue/Blueprints/BP_Monster.BP_Monster_C'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD3C7D630003_1484125256'"
+   Begin Object Class=/Script/Engine.CapsuleComponent Name="CollisionCylinder" Archetype="/Script/Engine.CapsuleComponent'/Game/Blueprints/Dialogue/Blueprints/BP_Monster.Default__BP_Monster_C:CollisionCylinder'" ExportPath="/Script/Engine.CapsuleComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD3C7D630003_1484125256.CollisionCylinder'"
+   End Object
+   Begin Object Class=/Script/Engine.ArrowComponent Name="Arrow" Archetype="/Script/Engine.ArrowComponent'/Game/Blueprints/Dialogue/Blueprints/BP_Monster.Default__BP_Monster_C:Arrow'" ExportPath="/Script/Engine.ArrowComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD3C7D630003_1484125256.Arrow'"
+   End Object
+   Begin Object Class=/Script/Engine.CharacterMovementComponent Name="CharMoveComp" Archetype="/Script/Engine.CharacterMovementComponent'/Game/Blueprints/Dialogue/Blueprints/BP_Monster.Default__BP_Monster_C:CharMoveComp'" ExportPath="/Script/Engine.CharacterMovementComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD3C7D630003_1484125256.CharMoveComp'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="CharacterMesh0" Archetype="/Script/Engine.SkeletalMeshComponent'/Game/Blueprints/Dialogue/Blueprints/BP_Monster.Default__BP_Monster_C:CharacterMesh0'" ExportPath="/Script/Engine.SkeletalMeshComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD3C7D630003_1484125256.CharacterMesh0'"
+   End Object
+   Begin Object Class=/Script/Paper2D.PaperSpriteComponent Name="Monster2D" Archetype="/Script/Paper2D.PaperSpriteComponent'/Game/Blueprints/Dialogue/Blueprints/BP_Monster.BP_Monster_C:Monster2D_GEN_VARIABLE'" ExportPath="/Script/Paper2D.PaperSpriteComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD3C7D630003_1484125256.Monster2D'"
+   End Object
+   Begin Object Class=/Script/Engine.BoxComponent Name="Collision" Archetype="/Script/Engine.BoxComponent'/Game/Blueprints/Dialogue/Blueprints/BP_Monster.BP_Monster_C:Collision_GEN_VARIABLE'" ExportPath="/Script/Engine.BoxComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD3C7D630003_1484125256.Collision'"
+   End Object
+   Begin Object Class=/Script/UMG.WidgetComponent Name="FrustrationBar" Archetype="/Script/UMG.WidgetComponent'/Game/Blueprints/Dialogue/Blueprints/BP_Monster.BP_Monster_C:FrustrationBar_GEN_VARIABLE'" ExportPath="/Script/UMG.WidgetComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD3C7D630003_1484125256.FrustrationBar'"
+   End Object
+   Begin Object Name="CollisionCylinder" ExportPath="/Script/Engine.CapsuleComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD3C7D630003_1484125256.CollisionCylinder'"
+      BodyInstance=(MaxAngularVelocity=3599.999756)
+      RelativeLocation=(X=4685.478720,Y=-5037.093914,Z=100.000000)
+   End Object
+   Begin Object Name="Arrow" ExportPath="/Script/Engine.ArrowComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD3C7D630003_1484125256.Arrow'"
+      AttachParent="CollisionCylinder"
+   End Object
+   Begin Object Name="CharMoveComp" ExportPath="/Script/Engine.CharacterMovementComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD3C7D630003_1484125256.CharMoveComp'"
+      WalkableFloorZ=0.710000
+      NavAgentProps=(AgentRadius=34.000000,AgentHeight=176.000000)
+   End Object
+   Begin Object Name="CharacterMesh0" ExportPath="/Script/Engine.SkeletalMeshComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD3C7D630003_1484125256.CharacterMesh0'"
+      AttachParent="CollisionCylinder"
+      PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+   End Object
+   Begin Object Name="Monster2D" ExportPath="/Script/Paper2D.PaperSpriteComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD3C7D630003_1484125256.Monster2D'"
+      BodyInstance=(MaxAngularVelocity=3599.999756)
+      AttachParent="CollisionCylinder"
+      RelativeLocation=(X=0.000000,Y=0.000000,Z=30.000000)
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Collision" ExportPath="/Script/Engine.BoxComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD3C7D630003_1484125256.Collision'"
+      OnComponentEndOverlap=(/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD3C7D630003_1484125256.BndEvt__BP_Monster_Collision_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature)
+      AttachParent="Monster2D"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="FrustrationBar" ExportPath="/Script/UMG.WidgetComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD3C7D630003_1484125256.FrustrationBar'"
+      AttachParent="CollisionCylinder"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   FrustrationBar="FrustrationBar"
+   Collision="Collision"
+   Monster2D="Monster2D"
+   Option1=NSLOCTEXT("[703F410168915D8BBA8CC8A544AFB20D]", "D4FDA7674657BA8BC82D7A897B11501C", "Ew... a monster")
+   Option2=NSLOCTEXT("[703F410168915D8BBA8CC8A544AFB20D]", "F61A7A7D42A8674F17DA9D8B52A9D15D", "What are you?")
+   Option3=NSLOCTEXT("[703F410168915D8BBA8CC8A544AFB20D]", "D2957223410832C2D9CF0F8339851317", "Sure")
+   MonsterName=NSLOCTEXT("[703F410168915D8BBA8CC8A544AFB20D]", "F9845589462DC412C5C6238D1CE89489", "Janitor")
+   MonsterID=NSLOCTEXT("[703F410168915D8BBA8CC8A544AFB20D]", "BB53173C47930FCEA3C43F926BD00950", "Janitor")
+   Dialogue Text=NSLOCTEXT("[703F410168915D8BBA8CC8A544AFB20D]", "993B3A644A7616FACA29F18C6A6C642C", "\"Well, what do we have here? A Human? Well, don\'t matter. You\'re here. Can ya help me with somethin\'? There\'s a lotta trash around. Think ya can help?\"")
+   MyMonsterSprite="/Script/Paper2D.PaperSprite'/Game/Characters/Monsters/Janitor/janitor_monster__1__Sprite.janitor_monster__1__Sprite'"
+   MonsterState="QuestAvailable"
+   Mesh="CharacterMesh0"
+   CharacterMovement="CharMoveComp"
+   CapsuleComponent="CollisionCylinder"
+   ArrowComponent="Arrow"
+   SpawnCollisionHandlingMethod=AlwaysSpawn
+   RootComponent="CollisionCylinder"
+   Tags(0)="Janitor"
+   BlueprintCreatedComponents(0)="Monster2D"
+   BlueprintCreatedComponents(1)="Collision"
+   BlueprintCreatedComponents(2)="FrustrationBar"
+End Object

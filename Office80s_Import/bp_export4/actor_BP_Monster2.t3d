@@ -1,0 +1,68 @@
+Begin Object Class=/Game/Blueprints/Dialogue/Blueprints/BP_Monster.BP_Monster_C Name="BP_Monster_C_UAID_1C697ABD4227131003_1323216071" ExportPath="/Game/Blueprints/Dialogue/Blueprints/BP_Monster.BP_Monster_C'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD4227131003_1323216071'"
+   Begin Object Class=/Script/Engine.CapsuleComponent Name="CollisionCylinder" Archetype="/Script/Engine.CapsuleComponent'/Game/Blueprints/Dialogue/Blueprints/BP_Monster.Default__BP_Monster_C:CollisionCylinder'" ExportPath="/Script/Engine.CapsuleComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD4227131003_1323216071.CollisionCylinder'"
+   End Object
+   Begin Object Class=/Script/Engine.ArrowComponent Name="Arrow" Archetype="/Script/Engine.ArrowComponent'/Game/Blueprints/Dialogue/Blueprints/BP_Monster.Default__BP_Monster_C:Arrow'" ExportPath="/Script/Engine.ArrowComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD4227131003_1323216071.Arrow'"
+   End Object
+   Begin Object Class=/Script/Engine.CharacterMovementComponent Name="CharMoveComp" Archetype="/Script/Engine.CharacterMovementComponent'/Game/Blueprints/Dialogue/Blueprints/BP_Monster.Default__BP_Monster_C:CharMoveComp'" ExportPath="/Script/Engine.CharacterMovementComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD4227131003_1323216071.CharMoveComp'"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="CharacterMesh0" Archetype="/Script/Engine.SkeletalMeshComponent'/Game/Blueprints/Dialogue/Blueprints/BP_Monster.Default__BP_Monster_C:CharacterMesh0'" ExportPath="/Script/Engine.SkeletalMeshComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD4227131003_1323216071.CharacterMesh0'"
+   End Object
+   Begin Object Class=/Script/Paper2D.PaperSpriteComponent Name="Monster2D" Archetype="/Script/Paper2D.PaperSpriteComponent'/Game/Blueprints/Dialogue/Blueprints/BP_Monster.BP_Monster_C:Monster2D_GEN_VARIABLE'" ExportPath="/Script/Paper2D.PaperSpriteComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD4227131003_1323216071.Monster2D'"
+   End Object
+   Begin Object Class=/Script/Engine.BoxComponent Name="Collision" Archetype="/Script/Engine.BoxComponent'/Game/Blueprints/Dialogue/Blueprints/BP_Monster.BP_Monster_C:Collision_GEN_VARIABLE'" ExportPath="/Script/Engine.BoxComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD4227131003_1323216071.Collision'"
+   End Object
+   Begin Object Class=/Script/UMG.WidgetComponent Name="FrustrationBar" Archetype="/Script/UMG.WidgetComponent'/Game/Blueprints/Dialogue/Blueprints/BP_Monster.BP_Monster_C:FrustrationBar_GEN_VARIABLE'" ExportPath="/Script/UMG.WidgetComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD4227131003_1323216071.FrustrationBar'"
+   End Object
+   Begin Object Name="CollisionCylinder" ExportPath="/Script/Engine.CapsuleComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD4227131003_1323216071.CollisionCylinder'"
+      BodyInstance=(MaxAngularVelocity=3599.999756)
+      RelativeLocation=(X=5912.222545,Y=24.338378,Z=99.999987)
+   End Object
+   Begin Object Name="Arrow" ExportPath="/Script/Engine.ArrowComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD4227131003_1323216071.Arrow'"
+      AttachParent="CollisionCylinder"
+   End Object
+   Begin Object Name="CharMoveComp" ExportPath="/Script/Engine.CharacterMovementComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD4227131003_1323216071.CharMoveComp'"
+      WalkableFloorZ=0.710000
+      NavAgentProps=(AgentRadius=34.000000,AgentHeight=176.000000)
+   End Object
+   Begin Object Name="CharacterMesh0" ExportPath="/Script/Engine.SkeletalMeshComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD4227131003_1323216071.CharacterMesh0'"
+      AttachParent="CollisionCylinder"
+      PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+   End Object
+   Begin Object Name="Monster2D" ExportPath="/Script/Paper2D.PaperSpriteComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD4227131003_1323216071.Monster2D'"
+      BodyInstance=(MaxAngularVelocity=3599.999756)
+      AttachParent="CollisionCylinder"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Collision" ExportPath="/Script/Engine.BoxComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD4227131003_1323216071.Collision'"
+      OnComponentEndOverlap=(/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD4227131003_1323216071.BndEvt__BP_Monster_Collision_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature)
+      AttachParent="Monster2D"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="FrustrationBar" ExportPath="/Script/UMG.WidgetComponent'/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD4227131003_1323216071.FrustrationBar'"
+      AttachParent="CollisionCylinder"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   FrustrationBar="FrustrationBar"
+   Collision="Collision"
+   Monster2D="Monster2D"
+   MonsterName=NSLOCTEXT("[5036AD3F1336E1A2519B4D75061E6ADB]", "AA40FCD24B1F00ED642E07BF4157C6AF", "Boss")
+   MonsterID=NSLOCTEXT("[5036AD3F1336E1A2519B4D75061E6ADB]", "8D1511D34B7924B02D21B7A52E599FFE", "Boss")
+   MyMonsterSprite="/Script/Paper2D.PaperSprite'/Game/Characters/Monsters/Bossman/bossman_Sprite.bossman_Sprite'"
+   MonsterState="Tutorial"
+   Mesh="CharacterMesh0"
+   CharacterMovement="CharMoveComp"
+   CapsuleComponent="CollisionCylinder"
+   ArrowComponent="Arrow"
+   SpawnCollisionHandlingMethod=AlwaysSpawn
+   RootComponent="CollisionCylinder"
+   ActorLabel="BP_Monster2"
+   BlueprintCreatedComponents(0)="Monster2D"
+   BlueprintCreatedComponents(1)="Collision"
+   BlueprintCreatedComponents(2)="FrustrationBar"
+End Object

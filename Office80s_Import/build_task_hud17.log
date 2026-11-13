@@ -1,0 +1,108 @@
+ui textures: 27
+movement defaults friction/braking/accel: (8.0, 2048.0, 2048.0)
+ERR value K2Node_PromotableOperator_16.A = 1.0
+ERR value K2Node_PromotableOperator_17.A = 740.0
+ERR value K2Node_PromotableOperator_18.A = 24.0
+ERR value K2Node_PromotableOperator_22.A = 3.0
+ERR value K2Node_PromotableOperator_23.A = 20.0
+ERR value K2Node_PromotableOperator_26.A = 128.0
+ERR value K2Node_PromotableOperator_28.A = 180.0
+ERR value K2Node_PromotableOperator_30.A = 28.0
+ERR value K2Node_PromotableOperator_31.A = 74.0
+ERR value K2Node_PromotableOperator_32.A = 26.0
+ERR value K2Node_PromotableOperator_36.A = 1.0
+ERR value K2Node_PromotableOperator_37.A = 134.0
+ERR value K2Node_PromotableOperator_39.A = 1500.0
+ERR value K2Node_PromotableOperator_41.A = 300.0
+ERR value K2Node_PromotableOperator_44.A = 16.0
+ERR value K2Node_PromotableOperator_45.A = 22.0
+ERR value K2Node_PromotableOperator_46.A = 680.0
+ERR value K2Node_PromotableOperator_47.A = 220.0
+ERR value K2Node_PromotableOperator_48.A = 598.0
+ERR value K2Node_PromotableOperator_50.A = 22.0
+ERR value K2Node_PromotableOperator_52.A = 80.0
+ERR value K2Node_PromotableOperator_53.A = 80.0
+ERR value K2Node_PromotableOperator_55.A = 10.0
+ERR value K2Node_PromotableOperator_56.A = 620.0
+ERR value K2Node_PromotableOperator_60.A = 5.0
+ERR value K2Node_PromotableOperator_61.A = -2.0
+ERR value K2Node_PromotableOperator_107.A = 40.0
+ERR value K2Node_PromotableOperator_108.A = 40.0
+ERR value K2Node_PromotableOperator_111.A = 598.0
+ERR value K2Node_PromotableOperator_113.A = 22.0
+ERR value K2Node_PromotableOperator_115.A = 80.0
+ERR value K2Node_PromotableOperator_116.A = 80.0
+ERR value K2Node_PromotableOperator_118.A = 22.0
+ERR value K2Node_PromotableOperator_120.A = 98.0
+ERR value K2Node_PromotableOperator_122.A = 40.0
+ERR value K2Node_PromotableOperator_123.A = 40.0
+ERR value K2Node_PromotableOperator_124.A = 72.0
+ERR value K2Node_PromotableOperator_126.A = 98.0
+ERR value K2Node_PromotableOperator_128.A = 304.5
+ERR value K2Node_PromotableOperator_129.A = 40.0
+ERR value K2Node_PromotableOperator_133.A = 72.0
+ERR value K2Node_PromotableOperator_135.A = 98.0
+ERR value K2Node_PromotableOperator_137.A = 491.5
+ERR value K2Node_PromotableOperator_138.A = 40.0
+ERR value K2Node_PromotableOperator_141.A = 72.0
+ERR value K2Node_PromotableOperator_143.A = 98.0
+ERR value K2Node_PromotableOperator_145.A = 289.0
+ERR value K2Node_PromotableOperator_146.A = 40.0
+ERR value K2Node_PromotableOperator_148.A = 22.0
+ERR value K2Node_PromotableOperator_150.A = 98.0
+ERR value K2Node_PromotableOperator_152.A = 40.0
+ERR value K2Node_PromotableOperator_153.A = 40.0
+ERR value K2Node_PromotableOperator_154.A = 70.0
+ERR value K2Node_PromotableOperator_156.A = 117.0
+ERR value K2Node_PromotableOperator_158.A = 296.0
+ERR value K2Node_PromotableOperator_162.A = 3.0
+ERR value K2Node_PromotableOperator_164.A = 22.0
+ERR value K2Node_PromotableOperator_166.A = 98.0
+ERR value K2Node_PromotableOperator_208.A = 40.0
+ERR value K2Node_PromotableOperator_209.A = 40.0
+ERR value K2Node_PromotableOperator_213.A = 1.0
+ERR value K2Node_PromotableOperator_214.A = 0.5
+ERR value K2Node_PromotableOperator_215.A = 1.0
+EXCEPTION Traceback (most recent call last):
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/build_task_hud17.py", line 823, in <module>
+    main()
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/build_task_hud17.py", line 521, in main
+    draw_main(seq, dh)
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/build_task_hud17.py", line 294, in draw_main
+    ch.when("ListAnim > 0.01", panel)
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/build_task_hud17.py", line 196, in when
+    self.outs = [(br, "then")]; body(); self.outs = self.outs + [(br, "else")]
+                                ^^^^^^
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/build_task_hud17.py", line 293, in panel
+    ch.when("Phase > 0", trash)
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/build_task_hud17.py", line 196, in when
+    self.outs = [(br, "then")]; body(); self.outs = self.outs + [(br, "else")]
+                                ^^^^^^
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/build_task_hud17.py", line 282, in trash
+    ch.when("Phase == 1", counter)
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/build_task_hud17.py", line 196, in when
+    self.outs = [(br, "then")]; body(); self.outs = self.outs + [(br, "else")]
+                                ^^^^^^
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/build_task_hud17.py", line 277, in counter
+    ch.tex("T_UI_Digits", "PX + (586.0 + %d * 24.0) * U - (DS - 1.0) * 12.0 * U" % i, "PY + 98.0 * U - (DS - 1.0) * 20.0 * U",
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/build_task_hud17.py", line 204, in tex
+    self.X.bind(n, p, e)
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/build_task_hud17.py", line 172, in bind
+    v = self.c(v)
+        ^^^^^^^^^
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/build_task_hud17.py", line 104, in c
+    return self._c(_ast.parse(src, mode="eval").body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/build_task_hud17.py", line 113, in _c
+    a, b = self._c(e.left), self._c(e.right)
+           ^^^^^^^^^^^^^^^
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/build_task_hud17.py", line 113, in _c
+    a, b = self._c(e.left), self._c(e.right)
+                            ^^^^^^^^^^^^^^^^
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/build_task_hud17.py", line 113, in _c
+    a, b = self._c(e.left), self._c(e.right)
+           ^^^^^^^^^^^^^^^
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/build_task_hud17.py", line 115, in _c
+    return ("c", {_ast.Add: a[1] + b[1], _ast.Sub: a[1] - b[1], _ast.Mult: a[1] * b[1], _ast.Div: a[1] / b[1]}[type(e.op)], "f")
+                                                                                                  ~~~~~^~~~~~
+ZeroDivisionError: float division by zero

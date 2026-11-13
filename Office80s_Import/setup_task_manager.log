@@ -1,0 +1,12 @@
+classes ready
+card DA_Task_01_TalkToBoss
+card DA_Task_02_TalkToJanitor
+card DA_Task_03_TakeOutTrash
+DA_TaskManager with 3 tasks
+FONT FAILED (HUD will use Roboto): CompositeFont: Failed to find property 'default_typeface' for attribute 'default_typeface' on 'CompositeFont'
+BP_TrashBag default tags: ['Task_Trash']
+BP_TrashDropOff default tags: ['Task_Dumpster']
+placed trash actors missing their tag: none
+BP_TaskPickup created
+BP_TaskZone created
+README written to C:/Users/rbrannig/Documents/GitHub/HRGame/Content/TaskSystem\TaskManager

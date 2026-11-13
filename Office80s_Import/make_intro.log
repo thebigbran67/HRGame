@@ -1,0 +1,4 @@
+new sequence LS_Intro_v2
+transform channels: ['Location.X_3', 'Location.Y_3', 'Location.Z_3', 'Rotation.X_3', 'Rotation.Y_3', 'Rotation.Z_3', 'Scale.X_3', 'Scale.Y_3', 'Scale.Z_3']
+playback settings: {'autoplay': 'auto_play', 'move': 'disable_movement_input', 'look': 'disable_look_at_input', 'hideplayer': 'hide_player', 'hidehud': 'hide_hud'}
+intro built: 512 frames (17.1s), cut at frame 130
