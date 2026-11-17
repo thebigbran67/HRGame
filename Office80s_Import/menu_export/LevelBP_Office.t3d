@@ -1,0 +1,18 @@
+Begin Object Class=/Script/Engine.LevelScriptBlueprint Name="Office" ExportPath="/Script/Engine.LevelScriptBlueprint'/Game/Maps/Office.Office:PersistentLevel.Office'"
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/Maps/Office.Office:PersistentLevel.Office.EventGraph'"
+   End Object
+   Begin Object Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/Maps/Office.Office:PersistentLevel.Office.EventGraph'"
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      bAllowDeletion=False
+      GraphGuid=D3EE173445EA0491219762BE7F62429A
+   End Object
+   ParentClass="/Script/CoreUObject.Class'/Script/Engine.LevelScriptActor'"
+   BlueprintType=BPTYPE_LevelScript
+   BlueprintSystemVersion=2
+   UbergraphPages(0)="/Script/Engine.EdGraph'EventGraph'"
+   CategorySorting(0)="Event Graph"
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/Maps/Office.Office:PersistentLevel.Office.EventGraph",SavedViewOffset=(X=-262.502930,Y=-307.898773),SavedZoomAmount=0.675000)
+   GeneratedClass="/Script/Engine.BlueprintGeneratedClass'Office_C'"
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=A0463DAE4702264A571D7BB31FAD7211
+End Object

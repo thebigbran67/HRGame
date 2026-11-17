@@ -1,0 +1,12 @@
+MainMenu level: <Object '/Game/Maps/MainMenu.MainMenu:PersistentLevel' (0x000001DA04939C00) Class 'Level'>
+  lsb via path: <Object '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' (0x000001DA9DF8F000) Class 'LevelScriptBlueprint'>
+  gamemode override: None
+Controls level: <Object '/Game/Maps/Controls.Controls:PersistentLevel' (0x000001DA80633C00) Class 'Level'>
+  lsb via path: <Object '/Game/Maps/Controls.Controls:PersistentLevel.Controls' (0x000001DAE41B9600) Class 'LevelScriptBlueprint'>
+  gamemode override: None
+Office level: <Object '/Game/Maps/Office.Office:PersistentLevel' (0x000001D9D99A9C00) Class 'Level'>
+  lsb via path: <Object '/Game/Maps/Office.Office:PersistentLevel.Office' (0x000001D9D9B74E00) Class 'LevelScriptBlueprint'>
+  gamemode override: None
+editor_startup_map = <Struct 'SoftObjectPath' (0x000001D96C3447F0) {}>
+game_default_map = <Struct 'SoftObjectPath' (0x000001D96C344890) {}>
+global_default_game_mode = <Struct 'SoftClassPath' (0x000001D96C3448E0) {}>
