@@ -1,0 +1,25 @@
+fixup fn: None; asset tools has: []
+HUD task list now: <Object '/Game/_TASKS/DA_TaskManager.DA_TaskManager' (0x000001DB298EF780) Class 'BPD_TaskList_C'>
+template TEMPLATE_1_TalkToSomeone
+template TEMPLATE_2_TalkAndSayYes
+template TEMPLATE_3_PickUpItems
+template TEMPLATE_4_PickUpAndBringBack
+template TEMPLATE_5_GoSomewhere
+  /Game/_TASKS/BPD_Task.BPD_Task
+  /Game/_TASKS/BPD_TaskList.BPD_TaskList
+  /Game/_TASKS/BP_TaskPickup.BP_TaskPickup
+  /Game/_TASKS/BP_TaskZone.BP_TaskZone
+  /Game/_TASKS/DA_TaskManager.DA_TaskManager
+  /Game/_TASKS/Font/F_TaskPrompt.F_TaskPrompt
+  /Game/_TASKS/Font/F_TaskTypewriter.F_TaskTypewriter
+  /Game/_TASKS/Font/FreeMonoBold.FreeMonoBold
+  /Game/_TASKS/Font/Poppins-Bold.Poppins-Bold
+  /Game/_TASKS/Tasks/DA_Task_01_TalkToBoss.DA_Task_01_TalkToBoss
+  /Game/_TASKS/Tasks/DA_Task_02_TalkToJanitor.DA_Task_02_TalkToJanitor
+  /Game/_TASKS/Tasks/DA_Task_03_TakeOutTrash.DA_Task_03_TakeOutTrash
+  /Game/_TASKS/Templates/TEMPLATE_1_TalkToSomeone.TEMPLATE_1_TalkToSomeone
+  /Game/_TASKS/Templates/TEMPLATE_2_TalkAndSayYes.TEMPLATE_2_TalkAndSayYes
+  /Game/_TASKS/Templates/TEMPLATE_3_PickUpItems.TEMPLATE_3_PickUpItems
+  /Game/_TASKS/Templates/TEMPLATE_4_PickUpAndBringBack.TEMPLATE_4_PickUpAndBringBack
+  /Game/_TASKS/Templates/TEMPLATE_5_GoSomewhere.TEMPLATE_5_GoSomewhere
+hub done

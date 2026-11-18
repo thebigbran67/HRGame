@@ -1,0 +1,17 @@
+F_TaskTypewriter size 24
+F_TaskPrompt size 24
+task title font: /Game/TaskSystem/TaskManager/Font/F_TaskTypewriter.F_TaskTypewriter
+ui textures: 37
+movement defaults friction/braking/accel: (8.0, 2048.0, 2048.0)
+shift key node: Input|KeyboardEvents|LeftShift
+ground fn: /Script/Engine.NavMovementComponent:IsMovingOnGround
+space key node: Input|KeyboardEvents|SpaceBar
+removed 0 unused default events
+MemoHeader = INTER-OFFICE MEMO  //  NIGHT SHIFT
+PressWord = Press
+InteractText = to interact
+task list: <Object '/Game/TaskSystem/TaskManager/DA_TaskManager.DA_TaskManager' (0x000001DB298EF780) Class 'BPD_TaskList_C'>
+old HUD class: <Object '/Game/TaskSystem/BP_TaskHUD.BP_TaskHUD_C' (0x000001DB349F7000) Class 'BlueprintGeneratedClass'>
+HUD class now: <Object '/Game/TaskSystem/BP_TaskHUD.BP_TaskHUD_C' (0x000001DB349F7000) Class 'BlueprintGeneratedClass'>
+always-loaded set on 0 actors
+task HUD built

@@ -1,0 +1,6 @@
+move: True
+EXCEPTION Traceback (most recent call last):
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/make_tasks_hub.py", line 18, in <module>
+    tools.fixup_referencers(reds); log("fixed %d redirectors" % len(reds))
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssetTools' object has no attribute 'fixup_referencers'

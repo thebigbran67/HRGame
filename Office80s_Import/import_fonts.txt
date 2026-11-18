@@ -1,0 +1,2 @@
+/Game/TaskSystem/TaskManager/Font/FreeMonoBold.FreeMonoBold FontFace
+/Game/TaskSystem/TaskManager/Font/Poppins-Bold.Poppins-Bold FontFace
