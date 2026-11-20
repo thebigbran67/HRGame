@@ -1,0 +1,14 @@
+removed 31 leftover nodes
+function: /Game/Maps/Office.Office_C:FindPickedActor
+sequence pins: ['then_0', 'then_1', 'then_2', 'then_3', 'then_4', 'then_5']
+EXCEPTION Traceback (most recent call last):
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/level_pickers3.py", line 233, in <module>
+    gi = R.named("Utilities|Array|Get", 1000 + k * 450, 250, [outp(arr, orig)]); link(arr, orig, gi, "TargetArray")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/level_pickers3.py", line 38, in named
+    if n is None: raise RuntimeError("could not add " + name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: could not add Utilities|Array|Get
+
+removed 75 leftover nodes
+cleaned up after failure, map NOT saved

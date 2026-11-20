@@ -1,0 +1,16 @@
+FN FindPickedActor: ['then->Branch.execute', 'Pick->IsValidSoftObjectReference.SoftObjectReference', 'Pick->To String (SoftObjectReference).SoftObjectReference']
+FN Return Node: []
+FN IsValidSoftObjectReference: ['ReturnValue->Branch.Condition']
+FN Branch: ['then->GetAllActorsOfClass.execute', 'else->Return Node.execute']
+FN GetAllActorsOfClass: ['then->For Each Loop.Exec', 'OutActors->For Each Loop.Array']
+FN For Each Loop: ['LoopBody->Branch.execute', 'Array Element->GetObjectName.Object', 'Array Element->Return Node.Found', 'Completed->Return Node.execute']
+FN To String (SoftObjectReference): ['ReturnValue->EndsWith.SourceString']
+FN GetObjectName: ['ReturnValue->Append.B']
+FN Append: ['ReturnValue->EndsWith.InSuffix']
+FN EndsWith: ['ReturnValue->Branch.Condition']
+FN Branch: ['then->Return Node.execute']
+FN Return Node: []
+FN Return Node: []
+bags 5, dumpsters 1, monsters ['Janitor', 'Floor Manager', 'Boss', 'Receptionist Gioh']
+card items: 5 bring: <Object '/Game/Maps/Office.Office:PersistentLevel.BP_TrashDropOff_C_UAID_107C61710C1D030403_1437232589' (0x0000015F79CFB400) Class 'BP_TrashDropOff_C'> angry: <Object '/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD3C7D630003_1484125256' (0x0000015F865A1E00) Class 'BP_Monster_C'>
+card Target/DeliverTo/Meter: Task_Trash / Task_Dumpster / Janitor

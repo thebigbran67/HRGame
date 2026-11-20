@@ -1,0 +1,52 @@
+node Event BeginPlay                               (0,0) K2Node_Event_0
+node GetPlayerController                           (288,144) K2Node_CallFunction_0
+node SetInputMode_GameOnly                         (300,0) K2Node_CallFunction_1
+node Set bShowMouseCursor                          (576,16) K2Node_VariableSet_0
+node Create Widget                                 (880,0) K2Node_CreateWidget_0
+node Set SkipPrompt                                (1216,16) K2Node_VariableSet_1
+node AddToViewport                                 (1488,-16) K2Node_CallFunction_2
+node IntroSequence                                 (944,-288) K2Node_Literal_0
+node Get SequencePlayer                            (1200,-304) K2Node_VariableGet_0
+node Bind Event to On Finished                     (1504,-304) K2Node_AddDelegate_0
+node Bind Event to On Stop                         (1840,-304) K2Node_AddDelegate_1
+node HideSkip                                      (1328,-192) K2Node_CustomEvent_0
+node RemoveFromParent                              (1584,-112) K2Node_CallFunction_3
+node Get SkipPrompt                                (1296,-64) K2Node_VariableGet_1
+node Get TaskManager                               (440,746) K2Node_VariableGet_2
+node Get Tasks                                     (660,746) K2Node_VariableGet_3
+node Get OrigTarget                                (440,996) K2Node_VariableGet_4
+node Clear                                         (688,976) K2Node_CallArrayFunction_0
+node Get OrigDeliverTo                             (440,1116) K2Node_VariableGet_5
+node Clear                                         (688,1088) K2Node_CallArrayFunction_1
+node Get OrigMeterMonster                          (440,1236) K2Node_VariableGet_6
+node Clear                                         (688,1216) K2Node_CallArrayFunction_2
+node For Each Loop                                 (1040,596) K2Node_MacroInstance_0
+node Sequence                                      (1390,596) K2Node_ExecutionSequence_0
+node Get Target                                    (1690,746) K2Node_VariableGet_7
+node Get OrigTarget                                (1690,696) K2Node_VariableGet_8
+node Add                                           (1984,592) K2Node_CallArrayFunction_3
+node Get DeliverTo                                 (1690,856) K2Node_VariableGet_9
+node Get OrigDeliverTo                             (1690,806) K2Node_VariableGet_10
+node Add                                           (2288,592) K2Node_CallArrayFunction_4
+node Get MeterMonster                              (1690,966) K2Node_VariableGet_11
+node Get OrigMeterMonster                          (1690,916) K2Node_VariableGet_12
+node Add                                           (2576,592) K2Node_CallArrayFunction_5
+node Get ItemsToPickUp                             (1690,1346) K2Node_VariableGet_13
+node Length                                        (1936,1344) K2Node_CallArrayFunction_6
+node integer > integer                             (2190,1346) K2Node_PromotableOperator_0
+node Branch                                        (2440,1196) K2Node_IfThenElse_0
+node Get ItemsToPickUp                             (2440,1446) K2Node_VariableGet_14
+node For Each Loop                                 (2690,1196) K2Node_MacroInstance_1
+node To String (Integer)                           (2690,1706) K2Node_CallFunction_4
+node Append                                        (2910,1646) K2Node_CommutativeAssociativeBinaryOperator_0
+node FindPickedActor                               (2990,1196) K2Node_CallFunction_5
+node IsValid                                       (3240,1336) K2Node_CallFunction_6
+node Branch                                        (3490,1196) K2Node_IfThenElse_1
+node Get Tags                                      (3740,1346) K2Node_VariableGet_15
+vars: ['SkipPrompt', 'TaskManager', 'OrigTarget', 'OrigDeliverTo', 'OrigMeterMonster', '/Script/Engine.LevelScriptActor.bInputEnabled', '/Script/Engine.Actor.PrimaryActorTick', '/Script/Engine.Actor.bNetTemporary', '/Script/Engine.Actor.bOnlyRelevantToOwner', '/Script/Engine.Actor.bAlwaysRelevant', '/Script/Engine.Actor.bReplicateMovement', '/Script/Engine.Actor.bCallPreReplication', '/Script/Engine.Actor.bCallPreReplicationForReplay', '/Script/Engine.Actor.bHidden', '/Script/Engine.Actor.bTearOff', '/Script/Engine.Actor.bForceNetAddressable', '/Script/Engine.Actor.LevelInstanceType', '/Script/Engine.Actor.LevelInstanceFlags', '/Script/Engine.Actor.bIsMainWorldOnly', '/Script/Engine.Actor.bIgnoreInPIE', '/Script/Engine.Actor.bForceDuplicateInPIE', '/Script/Engine.Actor.bExchangedRoles', '/Script/Engine.Actor.bNetLoadOnClient', '/Script/Engine.Actor.bNetUseOwnerRelevancy', '/Script/Engine.Actor.bRelevantForNetworkReplays', '/Script/Engine.Actor.bRelevantForLevelBounds', '/Script/Engine.Actor.bReplayRewindable', '/Script/Engine.Actor.bAllowTickBeforeBeginPlay', '/Script/Engine.Actor.bAutoDestroyWhenFinished', '/Script/Engine.Actor.bCanBeDamaged', '/Script/Engine.Actor.bBlockInput', '/Script/Engine.Actor.bCollideWhenPlacing', '/Script/Engine.Actor.bFindCameraComponentWhenViewTarget', '/Script/Engine.Actor.bGenerateOverlapEventsDuringLevelStreaming', '/Script/Engine.Actor.bIgnoresOriginShifting', '/Script/Engine.Actor.bEnableAutoLODGeneration', '/Script/Engine.Actor.bIsEditorOnlyActor', '/Script/Engine.Actor.bReplicates', '/Script/Engine.Actor.bCanBeInCluster', '/Script/Engine.Actor.bMigratingAsset', '/Script/Engine.Actor.bAllowReceiveTickEventOnDedicatedServer', '/Script/Engine.Actor.bReplicateUsingRegisteredSubObjectList', '/Script/Engine.Actor.bActorEnableCollision', '/Script/Engine.Actor.bActorIsBeingDestroyed', '/Script/Engine.Actor.bAsyncPhysicsTickEnabled', '/Script/Engine.Actor.UpdateOverlapsMethodDuringLevelStreaming', '/Script/Engine.Actor.DefaultUpdateOverlapsMethodDuringLevelStreaming', '/Script/Engine.Actor.RemoteRole', '/Script/Engine.Actor.InitialLifeSpan', '/Script/Engine.Actor.CustomTimeDilation', '/Script/Engine.Actor.RayTracingGroupId', '/Script/Engine.Actor.GridPlacement', '/Script/Engine.Actor.RuntimeGrid', '/Script/Engine.Actor.AttachmentReplication', '/Script/Engine.Actor.ReplicatedMovement', '/Script/Engine.Actor.Owner', '/Script/Engine.Actor.NetDriverName', '/Script/Engine.Actor.Role', '/Script/Engine.Actor.NetDormancy', '/Script/Engine.Actor.SpawnCollisionHandlingMethod', '/Script/Engine.Actor.AutoReceiveInput', '/Script/Engine.Actor.InputPriority', '/Script/Engine.Actor.InputComponent', '/Script/Engine.Actor.NetTag', '/Script/Engine.Actor.NetCullDistanceSquared', '/Script/Engine.Actor.NetUpdateFrequency', '/Script/Engine.Actor.MinNetUpdateFrequency', '/Script/Engine.Actor.NetPriority', '/Script/Engine.Actor.PhysicsReplicationMode', '/Script/Engine.Actor.Instigator', '/Script/Engine.Actor.Children', '/Script/Engine.Actor.RootComponent', '/Script/Engine.Actor.PivotOffset', '/Script/Engine.Actor.HLODLayer', '/Script/Engine.Actor.ObjectsDetachedFromExternalPackage', '/Script/Engine.Actor.Layers', '/Script/Engine.Actor.ParentComponentActor', '/Script/Engine.Actor.ParentComponent', '/Script/Engine.Actor.ActorGuid', '/Script/Engine.Actor.ActorInstanceGuid', '/Script/Engine.Actor.ContentBundleGuid', '/Script/Engine.Actor.DataLayers', '/Script/Engine.Actor.DataLayerAssets', '/Script/Engine.Actor.ExternalDataLayerAsset', '/Script/Engine.Actor.GroupActor', '/Script/Engine.Actor.SpriteScale', '/Script/Engine.Actor.HiddenEditorViews', '/Script/Engine.Actor.ActorLabel', '/Script/Engine.Actor.FolderPath', '/Script/Engine.Actor.FolderGuid', '/Script/Engine.Actor.bHiddenEd', '/Script/Engine.Actor.bIsEditorPreviewActor', '/Script/Engine.Actor.bHiddenEdLayer', '/Script/Engine.Actor.bHiddenEdLevel', '/Script/Engine.Actor.bLockLocation', '/Script/Engine.Actor.bActorLabelEditable', '/Script/Engine.Actor.bEditable', '/Script/Engine.Actor.bListedInSceneOutliner', '/Script/Engine.Actor.bOptimizeBPComponentData', '/Script/Engine.Actor.bCanPlayFromHere', '/Script/Engine.Actor.bIsSpatiallyLoaded', '/Script/Engine.Actor.bHiddenEdTemporary', '/Script/Engine.Actor.bForceExternalActorLevelReferenceForPIE', '/Script/Engine.Actor.Tags', '/Script/Engine.Actor.OnTakeAnyDamage', '/Script/Engine.Actor.OnTakePointDamage', '/Script/Engine.Actor.OnTakeRadialDamage', '/Script/Engine.Actor.OnActorBeginOverlap', '/Script/Engine.Actor.OnActorEndOverlap', '/Script/Engine.Actor.OnBeginCursorOver', '/Script/Engine.Actor.OnEndCursorOver', '/Script/Engine.Actor.OnClicked', '/Script/Engine.Actor.OnReleased', '/Script/Engine.Actor.OnInputTouchBegin', '/Script/Engine.Actor.OnInputTouchEnd', '/Script/Engine.Actor.OnInputTouchEnter', '/Script/Engine.Actor.OnInputTouchLeave', '/Script/Engine.Actor.OnActorHit', '/Script/Engine.Actor.OnDestroyed', '/Script/Engine.Actor.OnEndPlay', '/Script/Engine.Actor.InstanceComponents', '/Script/Engine.Actor.BlueprintCreatedComponents']
+BEL remove fns: ['remove_event_dispatcher', 'remove_event_dispatcher_parameter', 'remove_function_graph', 'remove_graph', 'remove_unused_nodes', 'remove_unused_variables']
+BGE remove fns: ['remove_comment_node', 'remove_graph_input_parameter', 'remove_graph_output_parameter', 'remove_local_variable', 'remove_member_variable', 'remove_node_pin', 'remove_nodes']
+ref pins: ['IntroSequence']
+available count 1151
+tags: ['Interchange|ImportManager|SetContextObjectbyTag', 'Actor|GetComponentsbyTag', 'Actor|FindComponentbyTag', 'Actor|ActorHasTag', 'Variables|Actor|GetTags', 'Variables|Actor|SetTags', 'Utilities|Casting|ToGameplayTagAssetInterface', 'GameplayTags|HasMatchingGameplayTag(Message)', 'GameplayTags|HasAnyMatchingGameplayTags(Message)', 'GameplayTags|HasAllMatchingGameplayTags(Message)', 'Utilities|Casting|CastToGameplayTagAssetInterface', 'GameplayTags|GetBlackboardAsset(Message)', 'Sequencer|Player|Bindings|SetBindingbyTag', 'Sequencer|Player|Bindings|RemoveBindingbyTag', 'Sequencer|Player|Bindings|FindBindingsbyTag', 'Sequencer|Player|Bindings|FindBindingbyTag', 'Sequencer|Player|Bindings|AddBindingbyTag', 'AssetTags|GetCollectionsContainingAssetPtr']
+add unique: ['EditorScripting|AssetTools|CreateUniqueAssetName(Message)', 'Utilities|Array|AddUnique']

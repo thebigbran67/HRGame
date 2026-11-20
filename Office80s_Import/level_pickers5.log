@@ -1,0 +1,14 @@
+removed 0 leftover nodes
+kept existing FindPickedActor (13 nodes)
+function: /Game/Maps/Office.Office_C:FindPickedActor
+sequence pins: ['then_0', 'then_1', 'then_2', 'then_3', 'then_4', 'then_5']
+array get nodes: ['Utilities|Array|Get(aref)', 'Utilities|Array|Get(acopy)']
+get pins in: ['Array', 'Dimension 1'] out: ['Output']
+array get nodes: ['Utilities|Array|Get(aref)', 'Utilities|Array|Get(acopy)']
+get pins in: ['Array', 'Dimension 1'] out: ['Output']
+array get nodes: ['Utilities|Array|Get(aref)', 'Utilities|Array|Get(acopy)']
+get pins in: ['Array', 'Dimension 1'] out: ['Output']
+TaskManager default: <Object '/Game/_TASKS/DA_TaskManager.DA_TaskManager' (0x000001600615C120) Class 'BPD_TaskList_C'>
+compile errors: 0 []
+bad links: []
+saved map: True

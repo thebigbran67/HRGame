@@ -1,0 +1,6 @@
+node count 1412
+EXCEPTION Traceback (most recent call last):
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/hud_inspect2.py", line 13, in <module>
+    x, y = n.get_editor_property("node_pos_x"), n.get_editor_property("node_pos_y")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Exception: K2Node_Event: Failed to find property 'node_pos_x' for attribute 'node_pos_x' on 'K2Node_Event'

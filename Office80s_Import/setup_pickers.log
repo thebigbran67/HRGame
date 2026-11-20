@@ -1,0 +1,5 @@
+EXCEPTION Traceback (most recent call last):
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/setup_pickers.py", line 19, in <module>
+    log("TalkTo type json: %s" % BEL.pin_type_to_json_schema(t))
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: pin_type_to_json_schema() required argument 'self_context' (pos 2) not found

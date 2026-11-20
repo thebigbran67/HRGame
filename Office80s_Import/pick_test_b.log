@@ -1,0 +1,7 @@
+game world: /Game/Maps/UEDPIE_0_Office.Office
+Picked_Items_2: 5
+Picked_TurnIn_2: 1
+Task_Trash: 5
+Task_Dumpster: 1
+card Target/DeliverTo/Meter during play: Picked_Items_2 / Picked_TurnIn_2 / Janitor
+card1 Target: Boss

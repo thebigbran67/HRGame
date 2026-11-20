@@ -1,0 +1,7 @@
+add ItemsToPickUp: True
+add BringItemsTo: True
+add GoToPlace: True
+add AngryMonster: True
+new_variables not readable: Blueprint: Failed to find property 'new_variables' for attribute 'new_variables' on 'Blueprint'
+vars now: ['Title', 'Type', 'Target', 'MustAccept', 'Count', 'DeliverTitle', 'DeliverTo', 'DeliverPrompt', 'MeterMonster', 'MeterSeconds', 'CalmAmount', 'TalkTo', 'ItemsToPickUp', 'BringItemsTo', 'GoToPlace', 'AngryMonster', '/Script/Engine.PrimaryDataAsset.AssetBundleData']
+saved: True

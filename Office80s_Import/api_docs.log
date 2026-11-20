@@ -1,0 +1,386 @@
+=== BlueprintGraphEditor.create_and_edit_function_graph
+X.create_and_edit_function_graph(blueprint, func_name="NewFunction") -> BlueprintGraphEditor
+returns a new UBlueprintGraphEditor for a graph in InBlueprint, creating a new graph named FuncName - useful for creating new function graphs
+
+Args:
+    blueprint (Blueprint): 
+    func_name (str): 
+
+Returns:
+    BlueprintGraphEditor:
+=== BlueprintGraphEditor.add_graph_input_parameter
+x.add_graph_input_parameter(input_name, pin_type=[], value="") -> BlueprintGraphPin
+Adds a graph input parameter with name InputName, and optional PinType and Value. Returns the added pin.
+By default the type will be a boolean as defined by UBlueprintEditorLibrary.
+
+Args:
+    input_name (Name): 
+    pin_type (EdGraphPinType): 
+    value (str): 
+
+Returns:
+    BlueprintGraphPin:
+=== BlueprintGraphEditor.add_graph_output_parameter
+x.add_graph_output_parameter(output_name, pin_type=[]) -> K2Node_FunctionResult
+Adds a graph output parameter, returning the UK2Node_FunctionResult that has the new output on it.
+By default the type will be a boolean as defined by UBlueprintEditorLibrary.
+
+Args:
+    output_name (Name): 
+    pin_type (EdGraphPinType): 
+
+Returns:
+    K2Node_FunctionResult:
+=== BlueprintGraphEditor.add_return_node
+x.add_return_node() -> K2Node_FunctionResult
+Creates a UK2Node_FunctionResult in the current graph
+
+Returns:
+    K2Node_FunctionResult:
+=== BlueprintGraphEditor.find_graph_entry_pin
+x.find_graph_entry_pin() -> BlueprintGraphPin
+Returns the 'entry' pin for the graph, e.g. the 'then' pin of the entry node
+
+Returns:
+    BlueprintGraphPin:
+=== BlueprintGraphEditor.add_local_variable
+x.add_local_variable(local_name, pin_type=[], value="") -> bool
+Adds a local variable, use BlueprintEditorLibrary to specify a type. A default value can optionally be provided.
+By default the type will be a boolean as defined by UBlueprintEditorLibrary.
+
+Args:
+    local_name (Name): 
+    pin_type (EdGraphPinType): 
+    value (str): 
+
+Returns:
+    bool:
+=== BlueprintGraphEditor.get_graph_editor_by_name
+X.get_graph_editor_by_name(blueprint, graph_name) -> BlueprintGraphEditor
+returns a new UBlueprintGraphEditor for a graph in InBlueprint named GraphName - useful for editing graphs that already exist
+
+Args:
+    blueprint (Blueprint): 
+    graph_name (Name): 
+
+Returns:
+    BlueprintGraphEditor:
+=== BlueprintGraphEditor.create_node_from_name
+x.create_node_from_name(node_with_category, location, context_pins, declaring_class=None) -> EdGraphNode
+Creates node from Catagory and Name. Example:
+                     - 'Development|PrintString'
+                     - 'Utilities|Operators|Add'
+                     - 'Utilities|FlowControl|Branch'
+                     - 'Math|Vector|VectorLength'
+When multiple actions share the same Category|Name string , pass DeclaringClass to
+select the action belonging to that specific class.
+
+Args:
+    node_with_category (str): 
+    location (Vector2D): 
+    context_pins (Array[BlueprintGraphPin]): 
+    declaring_class (type(Class)): 
+
+Returns:
+    EdGraphNode:
+=== BlueprintGraphEditor.add_get_local_variable_node
+x.add_get_local_variable_node(local_name) -> K2Node_VariableGet
+Creates a UK2Node_VariableGet for the provided local variable identified by LocalName
+
+Args:
+    local_name (Name): 
+
+Returns:
+    K2Node_VariableGet:
+=== BlueprintGraphEditor.add_set_local_variable_node
+x.add_set_local_variable_node(local_name) -> K2Node_VariableSet
+Creates a UK2Node_VariableSet for the provided local variable identified by LocalName
+
+Args:
+    local_name (Name): 
+
+Returns:
+    K2Node_VariableSet:
+=== BlueprintGraphEditor.list_available_nodes
+x.list_available_nodes(context_pins) -> Array[str]
+List all of the nodes by name that can be added to this graph
+
+Args:
+    context_pins (Array[BlueprintGraphPin]): 
+
+Returns:
+    Array[str]: 
+
+    result (Array[str]):
+=== BlueprintGraphEditor.add_member_variable
+x.add_member_variable(member_name, pin_type=[], value="") -> bool
+Adds a member variable, use BlueprintEditorLibrary to specify a type. A default value can optionally be provided.
+By default the type will be a boolean as defined by UBlueprintEditorLibrary.
+
+Args:
+    member_name (Name): 
+    pin_type (EdGraphPinType): 
+    value (str): 
+
+Returns:
+    bool:
+=== BlueprintEditorLibrary.add_function_graph
+X.add_function_graph(blueprint, func_name="NewFunction") -> EdGraph
+Adds a function to the given blueprint
+
+Args:
+    blueprint (Blueprint): The blueprint to add the function to
+    func_name (str): Name of the function to add
+
+Returns:
+    EdGraph: UEdGraph*
+=== BlueprintEditorLibrary.find_graph
+X.find_graph(blueprint, graph_name) -> EdGraph
+Finds the graph with the given name on the blueprint. Null if it doesn't have one.
+
+Args:
+    blueprint (Blueprint): Blueprint to search
+    graph_name (Name): The name of the graph to search for
+
+Returns:
+    EdGraph: UEdGraph*             Pointer to the graph with the given name, null if not found
+=== BlueprintEditorLibrary.get_object_reference_type
+X.get_object_reference_type(object_type) -> EdGraphPinType
+
+
+Args:
+    object_type (type(Class)): 
+
+Returns:
+    EdGraphPinType: a object reference pintype for the provided class - returns 'int' type if invalid object type is provided
+=== BlueprintEditorLibrary.add_member_variable
+X.add_member_variable(blueprint, member_name, variable_type) -> bool
+Adds a member variable to the specified blueprint with the specified type.
+
+Args:
+    blueprint (Blueprint): 
+    member_name (Name): 
+    variable_type (EdGraphPinType): 
+
+Returns:
+    bool: true if it succeeds, false if it fails.
+=== BlueprintEditorLibrary.set_node_pos
+X.set_node_pos(node, pos) -> None
+Sets this node's visual position in the graph
+
+Args:
+    node (K2Node): 
+    pos (IntPoint):
+=== BlueprintGraphPinLibrary.acquire_editor_element_handle
+x.acquire_editor_element_handle(allow_create=True) -> ScriptTypedElementHandle
+Acquire Editor Object Element Handle
+
+Args:
+    allow_create (bool): 
+
+Returns:
+    ScriptTypedElementHandle:
+=== BlueprintGraphPinLibrary.break_pin_links
+X.break_pin_links(pin) -> bool
+Breaks all pin links associated with this pin
+
+Args:
+    pin (BlueprintGraphPin): 
+
+Returns:
+    bool:
+=== BlueprintGraphPinLibrary.break_single_pin_link
+X.break_single_pin_link(pin, other) -> bool
+Breaks a pin link between this pin and Other
+
+Args:
+    pin (BlueprintGraphPin): 
+    other (BlueprintGraphPin): 
+
+Returns:
+    bool:
+=== BlueprintGraphPinLibrary.call_method
+call_method(self, name: str, *args: Tuple[object, ...], **kwargs: Mapping[str, object]) -> Any -- call a method on this object via Unreal reflection using the given ordered (a tuple passed as args) or named (a dict passed as kwargs) argument data - allows calling methods that don't have Python glue
+=== BlueprintGraphPinLibrary.can_create_connection
+X.can_create_connection(pin, other) -> bool
+Returns true if this and Other pin can be connected. Performing connection may result in implicitly created conversion nodes.
+
+Args:
+    pin (BlueprintGraphPin): 
+    other (BlueprintGraphPin): 
+
+Returns:
+    bool:
+=== BlueprintGraphPinLibrary.cast
+cast(cls: Type[_T], object: object) -> _T -- cast the given object to this Unreal object type or raise an exception if the cast is not possible
+=== BlueprintGraphPinLibrary.get_class
+get_class(self) -> Class -- get the Unreal class of this instance
+=== BlueprintGraphPinLibrary.get_default_object
+get_default_object(cls: Type[_T]) -> _T -- get the Unreal class default object (CDO) of this type
+=== BlueprintGraphPinLibrary.get_editor_property
+get_editor_property(self, name: str) -> object -- get the value of any property visible to the editor
+=== BlueprintGraphPinLibrary.get_fname
+get_fname(self) -> Name -- get the name of this instance
+=== BlueprintGraphPinLibrary.get_full_name
+get_full_name(self) -> str -- get the full name (class name + full path) of this instance
+=== BlueprintGraphPinLibrary.get_name
+get_name(self) -> str -- get the name of this instance
+=== BlueprintGraphPinLibrary.get_outer
+get_outer(self) -> Any -- get the outer object from this instance (if any)
+=== BlueprintGraphPinLibrary.get_outermost
+get_outermost(self) -> Package -- get the outermost object (the package) from this instance
+=== BlueprintGraphPinLibrary.get_owning_node
+X.get_owning_node(pin) -> K2Node
+Returns the pin's node
+
+Args:
+    pin (BlueprintGraphPin): 
+
+Returns:
+    K2Node:
+=== BlueprintGraphPinLibrary.get_package
+get_package(self) -> Package -- get the package directly associated with this instance
+=== BlueprintGraphPinLibrary.get_path_name
+get_path_name(self) -> str -- get the path name of this instance
+=== BlueprintGraphPinLibrary.get_pin_direction
+X.get_pin_direction(pin) -> EdGraphPinDirection
+Returns the direction of the pin (either EGPD_Output or EGPD_Input)
+
+Args:
+    pin (BlueprintGraphPin): 
+
+Returns:
+    EdGraphPinDirection:
+=== BlueprintGraphPinLibrary.get_pin_name
+X.get_pin_name(pin) -> Name
+Returns the low level name of the pin
+
+Args:
+    pin (BlueprintGraphPin): 
+
+Returns:
+    Name:
+=== BlueprintGraphPinLibrary.get_pin_type
+X.get_pin_type(pin) -> EdGraphPinType
+Returns the pin's type, FEdGraphPinType is mostly opaque to script but can
+be used e.g. to create variables of the same type
+
+Args:
+    pin (BlueprintGraphPin): 
+
+Returns:
+    EdGraphPinType:
+=== BlueprintGraphPinLibrary.get_pin_type_as_json_schema
+X.get_pin_type_as_json_schema(pin) -> str
+Returns a json schema encoded description of the pin's type:
+
+Args:
+    pin (BlueprintGraphPin): 
+
+Returns:
+    str:
+=== BlueprintGraphPinLibrary.get_pin_type_display_string
+X.get_pin_type_display_string(pin) -> Text
+Returns the string used to describe the pin type in the blueprint UI
+
+Args:
+    pin (BlueprintGraphPin): 
+
+Returns:
+    Text:
+=== BlueprintGraphPinLibrary.get_pin_value
+X.get_pin_value(pin) -> str
+Returns the literal value associated with the pin. Empty string for pins
+that have nothing set or are connected to some other pin:
+
+Args:
+    pin (BlueprintGraphPin): 
+
+Returns:
+    str:
+=== BlueprintGraphPinLibrary.get_typed_outer
+get_typed_outer(self, type: Union[Class, type]) -> Any -- get the first outer object of the given type from this instance (if any)
+=== BlueprintGraphPinLibrary.get_world
+get_world(self) -> Optional[World] -- get the world associated with this instance (if any)
+=== BlueprintGraphPinLibrary.is_editor_property_overridden
+x.is_editor_property_overridden(property_name) -> EditorPropertyValueState
+Attempts to query whether the value of a named property on the given object overrides the value of its archetype (ie, would ResetEditorProperty do anything?).
+
+Args:
+    property_name (Name): The name of the object property to query the value of.
+
+Returns:
+    EditorPropertyValueState: What state the requested property is in.
+=== BlueprintGraphPinLibrary.is_package_external
+is_package_external(self) -> bool -- returns true if this instance has a different package than its outer's package
+=== BlueprintGraphPinLibrary.is_same_native_pin
+X.is_same_native_pin(pin, other) -> bool
+Because these pin objects are proxies for the underlying native pin, this function
+should be used for establishing whether to FBlueprintGraphPin values refer to the
+same pin on a node
+
+Args:
+    pin (BlueprintGraphPin): 
+    other (BlueprintGraphPin): 
+
+Returns:
+    bool: true if the Other pin and this Pin are the same pin
+=== BlueprintGraphPinLibrary.is_valid
+X.is_valid(pin) -> bool
+
+
+Args:
+    pin (BlueprintGraphPin): 
+
+Returns:
+    bool: true if the pin has a valid underlying pin
+=== BlueprintGraphPinLibrary.list_connected_pins
+X.list_connected_pins(pin) -> Array[BlueprintGraphPin]
+Returns a list of pins this pin is connected to, note that these pin objects are
+proxies and so comparison to other pin objects must be done via IsSameNativePin
+
+Args:
+    pin (BlueprintGraphPin): 
+
+Returns:
+    Array[BlueprintGraphPin]:
+=== BlueprintGraphPinLibrary.modify
+modify(self, always_mark_dirty: bool = True) -> bool -- inform that this instance is about to be modified (tracks changes for undo/redo if transactional)
+=== BlueprintGraphPinLibrary.rename
+rename(self, name: Union[Name, str]="None", outer: Optional[Object]=None) -> bool -- rename this instance and/or change its outer
+=== BlueprintGraphPinLibrary.reset_editor_property
+x.reset_editor_property(property_name, change_notify_mode=PropertyAccessChangeNotifyMode.DEFAULT) -> bool
+Attempts to reset the value of a named property on the given object so that it matches the value of the archetype.
+
+Args:
+    property_name (Name): The name of the object property to reset the value of.
+    change_notify_mode (PropertyAccessChangeNotifyMode): When to emit property change notifications.
+
+Returns:
+    bool: Whether the property value was found and correctly reset.
+=== BlueprintGraphPinLibrary.set_editor_properties
+set_editor_properties(self, properties: Mapping[str, object]) -> None -- set the value of any properties visible to the editor (from a name->value dict), ensuring that the pre/post change notifications are called
+=== BlueprintGraphPinLibrary.set_editor_property
+set_editor_property(self, name: str, value: object, notify_mode: PropertyAccessChangeNotifyMode=PropertyAccessChangeNotifyMode.DEFAULT) -> None -- set the value of any property visible to the editor, ensuring that the pre/post change notifications are called
+=== BlueprintGraphPinLibrary.set_pin_value
+X.set_pin_value(pin, value) -> bool
+Sets the literal value associated with this pin, returning false if the value is not valid
+
+Args:
+    pin (BlueprintGraphPin): 
+    value (str): 
+
+Returns:
+    bool:
+=== BlueprintGraphPinLibrary.static_class
+static_class(cls) -> Class -- get the Unreal class of this type
+=== BlueprintGraphPinLibrary.try_create_connection
+X.try_create_connection(pin, other) -> bool
+Tries to create a connection between this pin and Other, returning false if the connection is not allowed
+
+Args:
+    pin (BlueprintGraphPin): 
+    other (BlueprintGraphPin): 
+
+Returns:
+    bool:

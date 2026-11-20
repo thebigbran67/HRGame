@@ -1,0 +1,3 @@
+after play Target/DeliverTo/Meter: Task_Trash / Task_Dumpster / Janitor
+test picks cleared: 0 items
+saved card: True

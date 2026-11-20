@@ -2,47 +2,60 @@ HOW TO ADD A TASK   (everything is in Content/_TASKS)
 =====================================================
 
 The game runs the cards in DA_TaskManager from top to bottom.
+Hover any field on a card to see what it does.
 
 1. COPY A TEMPLATE
-   Open Templates/, pick the one closest to what you want, right-click > Duplicate,
-   and drag the copy into Tasks/. Rename it in order, e.g. DA_Task_04_GrabCoffee.
+   Open Templates/, right-click the closest one > Duplicate, drag the copy into Tasks/,
+   and rename it in order, e.g. DA_Task_04_GrabCoffee.
      TEMPLATE_1_TalkToSomeone        walk up to a monster and talk
-     TEMPLATE_2_TalkAndSayYes        talk AND pick the reply that gives you work (like "Sure")
+     TEMPLATE_2_TalkAndSayYes        talk AND pick the reply that takes the job (like "Sure")
      TEMPLATE_3_PickUpItems          pick up some items, done when you have them
      TEMPLATE_4_PickUpAndBringBack   pick up items, then press E at a spot to turn them in
-     TEMPLATE_5_GoSomewhere          walk into a spot
+     TEMPLATE_5_GoSomewhere          walk to a place
 
-2. CHANGE THE WORDS
-   Double-click your copy. Everything is under "Task":
+2. FILL IN THE CARD   (open the Office map first, the pickers only list things in the open map)
+   Task Basics
      Title          what the clipboard says
-     Target         Talk: the monster's name (Boss, Janitor, Floor Manager, Receptionist...)
-                    Pick up / Go: a tag you make up, e.g. Task_Coffee
-     Count          how many to pick up (0 = all of them)
-     DeliverTitle   clipboard text once you have everything (bring-back tasks)
-     DeliverTo      tag on the turn-in spot (bring-back tasks)
-     DeliverPrompt  words after "Press E", e.g. "to hand over the coffee"
-     MeterMonster   whose frustration bar runs during this task (empty = none)
-     MeterSeconds   seconds until that bar fills up
+     Type           Talk, Collect or GoTo (type it exactly)
+     MustAccept     Talk only: must pick the reply that takes the job
+     Count          Collect only: how many items (0 = all of them)
+     DeliverTitle   clipboard text once you have everything (bring-back tasks only)
+     DeliverPrompt  words after "Press E" at the turn-in spot
+   Pick From Level   (dropdown, or click the eyedropper and then click the thing in the level)
+     TalkTo         Talk tasks: the monster you talk to
+     ItemsToPickUp  Collect tasks: click + once per item, pick each item
+     BringItemsTo   bring-back tasks: the dumpster / desk / monster you turn items in at
+     GoToPlace      GoTo tasks: the place to walk to (a BP_TaskZone box works great)
+     AngryMonster   whose frustration bar fills during this task (empty = no bar)
+   Frustration Meter
+     MeterSeconds   seconds until the bar fills and you die
      CalmAmount     how much the bar drops when the task is done
+   Old Way (typed tags)  only used when the matching picker is empty, you can ignore it
 
 3. PUT IT IN THE ORDER
-   Open DA_TaskManager, click + on Tasks, and pick your card (or drag it in).
-   Drag the rows to change the order.
+   Open DA_TaskManager, click + on Tasks, pick your card. Drag rows to reorder.
 
-4. PUT THE STUFF IN THE LEVEL
-   Items:     drag BP_TaskPickup into the level (walk into it to pick it up; swap its Mesh
-              to whatever the item is). In Details > Actor > Tags add your tag, e.g. Task_Coffee.
-              Items stay hidden until their task starts.
-   Spots:     drag BP_TaskZone in for a place (an invisible box in game), and give it a tag.
-   People:    to turn something in to a monster, select that monster in the level and add the
-              tag (e.g. Task_Boss) to its Tags.
+4. ITEMS AND PLACES IN THE LEVEL
+   Items must be pickup objects that disappear when grabbed: drag in BP_TaskPickup
+   (walk into it to grab it, swap its Mesh to whatever the item is) or use BP_TrashBag.
+   Places: drag in BP_TaskZone (invisible box in game).
+   Items for future tasks stay hidden until their task starts.
 
 EXAMPLE: "Grab the boss a coffee"
-   Duplicate TEMPLATE_4_PickUpAndBringBack (it's already filled in for this), put it in Tasks/,
-   add it to DA_TaskManager, place a BP_TaskPickup in the break room with tag Task_Coffee,
-   and give BP_Monster2 (the Boss) the tag Task_Boss. Done.
+   Duplicate TEMPLATE_4_PickUpAndBringBack into Tasks/, open it:
+     Title "Grab the boss a coffee", Type Collect, DeliverTitle "Bring the coffee to the boss",
+     DeliverPrompt "to hand over the coffee", ItemsToPickUp = the coffee BP_TaskPickup you placed,
+     BringItemsTo = the Boss, AngryMonster = the Boss.
+   Add it to DA_TaskManager. Done.
+
+HOW IT WORKS (if something breaks)
+   The Office Level Blueprint (TASK PICKERS box) runs at the start of Play: it finds the
+   picked things and gives them a tag like Picked_Items_3, and writes that into the card's
+   old typed fields so BP_TaskHUD can read it. When Play stops, the typed fields are put back.
+   During Play a card can show Target = Picked_Items_3. That's normal.
 
 OTHER TEXT ON SCREEN
    BP_TaskHUD (Content/TaskSystem) > Class Defaults > HUD Text:
    InteractText ("to interact"), PressWord ("Press"), MemoHeader (clipboard header line).
-   Fonts: Font/F_TaskTypewriter (clipboard), Font/F_TaskPrompt (pop-ups).
+   Fonts: _TASKS/Font/F_TaskTypewriter (clipboard), F_TaskPrompt (pop-ups).
+   Frustration meter + death logic: BP_TaskHUD, red boxes FRUSTRATION METER + KILL and DEATH SCREEN.

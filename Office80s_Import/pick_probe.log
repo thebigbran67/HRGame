@@ -1,0 +1,13 @@
+BEL type fns: ['change_member_variable_type', 'get_array_type', 'get_basic_type_by_name', 'get_class_reference_type', 'get_map_type', 'get_member_variable_type', 'get_object_reference_type', 'get_set_type', 'get_struct_type', 'get_typed_outer', 'pin_type_to_json_schema']
+BEL tip/meta fns: ['_wrapper_meta_data']
+pin_category set failed: EdGraphPinType: Failed to find property 'pin_category' for attribute 'pin_category' on 'EdGraphPinType'
+pin type: <Struct 'EdGraphPinType' (0x00000225323A0A80) {}>
+add Pick: True
+add Picks: True
+Pick default value: None
+Picks default value: <Array object at 0x000002241095F8F0>
+bags: ['/Game/Maps/Office.Office:PersistentLevel.BP_TrashBag_C_UAID_107C61710C1D040403_1105233769', '/Game/Maps/Office.Office:PersistentLevel.BP_TrashBag_C_UAID_107C61710C1D040403_1115632770']
+set Pick via actor failed: PrimaryDataAsset: Property 'Pick' for attribute 'Pick' on 'BPD_PickProbe_C' cannot be edited on templates
+set Pick via softpath failed: PrimaryDataAsset: Property 'Pick' for attribute 'Pick' on 'BPD_PickProbe_C' cannot be edited on templates
+set Picks failed: PrimaryDataAsset: Property 'Picks' for attribute 'Picks' on 'BPD_PickProbe_C' cannot be edited on templates
+probe ready

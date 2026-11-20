@@ -1,0 +1,15 @@
+function: /Game/Maps/Office.Office_C:FindPickedActor
+sequence pins: ['then_0', 'then_1', 'then_2', 'then_3', 'then_4', 'then_5']
+EXCEPTION Traceback (most recent call last):
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/level_pickers.py", line 178, in <module>
+    add_tag(f, b, s_items, 3300, Y)
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/level_pickers.py", line 151, in add_tag
+    tg = E.get("Tags", "/Script/Engine.Actor", x, y + 150); link(found, "Found", tg, "self")
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/level_pickers.py", line 54, in link
+    if not PIN.try_create_connection(outp(a, ap), inp(b, bp_)):
+                                                  ^^^^^^^^^^^
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/level_pickers.py", line 50, in inp
+    if p is None or not PIN.is_valid(p): raise RuntimeError("no input pin %s on %s" % (name, BEL.get_node_title(n)))
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no input pin self on Get Tags

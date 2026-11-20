@@ -1,0 +1,8 @@
+nodes 1412
+EXCEPTION Traceback (most recent call last):
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/hud_inspect4.py", line 11, in <module>
+    p = BEL.get_node_pos(c)
+        ^^^^^^^^^^^^^^^^^^^
+TypeError: BlueprintEditorLibrary: Failed to convert parameter 'node' when calling function 'BlueprintEditorLibrary.GetNodePos' on 'Default__BlueprintEditorLibrary'
+  TypeError: NativizeProperty: Cannot nativize 'EdGraphNode_Comment' as 'Node' (ObjectProperty)
+    TypeError: NativizeObject: Cannot nativize 'EdGraphNode_Comment' as 'Object' (allowed Class type: 'K2Node')

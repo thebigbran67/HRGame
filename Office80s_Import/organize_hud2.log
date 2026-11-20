@@ -1,0 +1,5 @@
+removed 28 old comment boxes, 0 left
+roots: drawhud=K2Node_Event_5 seq=K2Node_ExecutionSequence_2 events=5
+sections: {'setup': 29, 'intro': 68, 'then_0': 293, 'then_1': 456, 'then_2': 41, 'then_3': 73, 'then_4': 12, 'then_5': 20, 'then_6': 105, 'then_7': 14, 'then_8': 29, 'then_9': 126, 'then_10': 67, 'then_11': 79}
+compile errors: 0
+organized
