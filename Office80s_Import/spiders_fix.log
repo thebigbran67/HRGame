@@ -1,0 +1,14 @@
+spider spawn transforms found: 5
+spider (2100,-4920,22) open avg 347 min 95  ->  (2470,-4767) open avg 484 min 337
+spider (3030,-3620,21) open avg 461 min 251  ->  (3252,-3712) open avg 488 min 438
+spider (4030,-2470,21) open avg 357 min 120  ->  (3630,-2470) open avg 419 min 178
+spider (4410,-900,21) open avg 346 min 40  ->  (4563,-530) open avg 426 min 236
+spider (5710,-1720,21) open avg 432 min 120  ->  (5427,-2003) open avg 490 min 422
+HUD compile errors: 0
+HUD saved: True
+Cower select nodes: 1
+now A=Continue B=Continue
+widget compile errors: 0, saved: True
+deleting props: ['BigSpider_1', 'BigSpider_2', 'BigSpider_3', 'DanglingSpider_1', 'DanglingSpider_2', 'DanglingSpider_3', 'DanglingSpider_4']
+saved map: True
+done

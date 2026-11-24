@@ -1,0 +1,7 @@
+gus nodes: 1 ['NSLOCTEXT("", "CAB26F8E45632992515AE4AD18A06311", "Fired? I ']
+set NSLOCTEXT -> True now NSLOCTEXT("", "GusFiredLine", "FUCKKKK BRO WHY AM I FIRED FUCKKKK")
+EXCEPTION Traceback (most recent call last):
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/widget_text_fix.py", line 25, in <module>
+    wt = w.get_editor_property("widget_tree")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Exception: WidgetBlueprint: Failed to find property 'widget_tree' for attribute 'widget_tree' on 'WidgetBlueprint'

@@ -1,0 +1,45 @@
+ACTOR Cocoon_SideRoom                    class=StaticMeshActor        mesh=SM_80s_Cocoon_B            loc=(5600,-1800,994) tags=[] folder=Office80s/Monster2 path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1531552109
+ACTOR EggSacs_SideRoom                   class=StaticMeshActor        mesh=SM_80s_EggSacs             loc=(6150,-2760,20) tags=[] folder=Office80s/Monster2 path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1531605122
+ACTOR DanglingSpider_3                   class=StaticMeshActor        mesh=SM_80s_SpiderDangle_A      loc=(1250,-2620,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199677103
+ACTOR DanglingSpider_1                   class=StaticMeshActor        mesh=SM_80s_SpiderDangle_A      loc=(3560,-2850,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199669101
+ACTOR Cobweb_04                          class=StaticMeshActor        mesh=SM_80s_CornerWeb_B         loc=(730,-1704,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199604088
+ACTOR Cobweb_10                          class=StaticMeshActor        mesh=SM_80s_CornerWeb_B         loc=(4883,-1,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199636094
+ACTOR Cobweb_11                          class=StaticMeshActor        mesh=SM_80s_CornerWeb_A         loc=(1937,-4139,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199641095
+ACTOR Cobweb_12                          class=StaticMeshActor        mesh=SM_80s_CornerWeb_A         loc=(6244,-5800,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199647096
+ACTOR Cobweb_05                          class=StaticMeshActor        mesh=SM_80s_CornerWeb_A         loc=(1901,-5748,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199610089
+ACTOR Cobweb_09                          class=StaticMeshActor        mesh=SM_80s_CornerWeb_B         loc=(6244,-2831,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199632093
+ACTOR BigSpider_3                        class=StaticMeshActor        mesh=SM_80s_SpiderBig           loc=(4650,-5000,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199665100
+ACTOR Cobweb_06                          class=StaticMeshActor        mesh=SM_80s_CornerWeb_A         loc=(4413,-5730,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199615090
+ACTOR BigSpider_2                        class=StaticMeshActor        mesh=SM_80s_SpiderBig           loc=(1938,-3000,520) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199661099
+ACTOR Cobweb_13                          class=StaticMeshActor        mesh=SM_80s_CornerWeb_B         loc=(1937,-5730,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199652097
+ACTOR Cobweb_07                          class=StaticMeshActor        mesh=SM_80s_CornerWeb_B         loc=(4898,-4203,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199620091
+ACTOR Car_WebPickup_3                    class=StaticMeshActor        mesh=SM_80s_Car_WebPickup       loc=(5810,-6420,0) tags=[] folder=Office80s/Front path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42277B1403_1382129789
+ACTOR EggSacs_Conference                 class=StaticMeshActor        mesh=SM_80s_EggSacs             loc=(2740,400,20) tags=[] folder=Office80s/Monster2 path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1531609123
+ACTOR DanglingSpider_4                   class=StaticMeshActor        mesh=SM_80s_SpiderDangle_B      loc=(5600,300,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199681104
+ACTOR Cobweb_08                          class=StaticMeshActor        mesh=SM_80s_CornerWeb_A         loc=(6244,1055,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199627092
+ACTOR Cobweb_01                          class=StaticMeshActor        mesh=SM_80s_CornerWeb_A         loc=(730,1055,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199588085
+ACTOR Cocoon_Conference                  class=StaticMeshActor        mesh=SM_80s_Cocoon_A            loc=(3000,800,994) tags=[] folder=Office80s/Monster2 path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1531545108
+ACTOR DanglingSpider_2                   class=StaticMeshActor        mesh=SM_80s_SpiderDangle_B      loc=(2350,400,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199673102
+ACTOR BigSpider_1                        class=StaticMeshActor        mesh=SM_80s_SpiderBig           loc=(4700,900,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199656098
+ACTOR Cobweb_03                          class=StaticMeshActor        mesh=SM_80s_CornerWeb_A         loc=(4865,1055,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199600087
+ACTOR Cobweb_02                          class=StaticMeshActor        mesh=SM_80s_CornerWeb_B         loc=(2680,1055,994) tags=[] folder=Office80s/Monster path=/Game/Maps/Office.Office:PersistentLevel.StaticMeshActor_UAID_1C697ABD42B02A0F03_1199595086
+WIDGET /Game/FrustrationBar/WBP_Frustraion_Bar
+WIDGET /Game/_TASKS/WBP_SkipPrompt
+WIDGET /Game/Interaction/UI_HUD
+WIDGET /Game/Input/Touch/UI_Thumbstick
+WIDGET /Game/Input/Touch/UI_TouchSimple
+WIDGET /Game/Blueprints/Dialogue/Widgets/W_MonsterTalk
+WIDGET /Game/Interaction/UI_Interact
+WIDGET /Game/Dialogue/Widgets/W_MonsterTalk
+WIDGET /Game/Maps/controls/WBP_Controls
+WIDGET /Game/Maps/title/WBP_MainMenu
+WIDGET /Game/TaskSystem/WBP_TaskDisplay
+WIDGET /Game/TaskSystem/WBP_Task_Entry
+WIDGET /Game/Variant_Horror/UI/UI_Horror
+WIDGET /Game/Variant_Shooter/Input/UI_TouchInterface_Shooter
+WIDGET /Game/Variant_Shooter/UI/UI_Shooter
+WIDGET /Game/Variant_Shooter/UI/UI_ShooterBulletCounter
+QuestSpider vars: []
+  QS Event BeginPlay [] OUT []
+  QS Event ActorBeginOverlap [] OUT []
+  QS Event Tick [] OUT []

@@ -1,0 +1,8 @@
+select A=Continue B=Continue
+spider spot (X=2470,Y=-4767,Z=22) scale (X=1.0,Y=1.0,Z=1.0)
+spider spot (X=3252,Y=-3712,Z=21) scale (X=1.0,Y=1.0,Z=1.0)
+spider spot (X=3630,Y=-2470,Z=21) scale (X=1.0,Y=1.0,Z=1.0)
+spider spot (X=4563,Y=-530,Z=21) scale (X=1.0,Y=1.0,Z=1.0)
+spider spot (X=5427,Y=-2003,Z=21) scale (X=1.0,Y=1.0,Z=1.0)
+saved widget: True
+saved hud: True
