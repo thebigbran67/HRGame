@@ -1,0 +1,5 @@
+EXCEPTION Traceback (most recent call last):
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/spawn_test_spider2.py", line 16, in <module>
+    a = unreal.GameplayStatics.begin_deferred_actor_spawn_from_class(gw, cls, t, unreal.SpawnActorCollisionHandlingMethod.ALWAYS_SPAWN)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'GameplayStatics' has no attribute 'begin_deferred_actor_spawn_from_class'

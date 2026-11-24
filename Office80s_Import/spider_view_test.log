@@ -1,0 +1,10 @@
+EXCEPTION Traceback (most recent call last):
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/spider_view_test.py", line 11, in <module>
+    hud.set_editor_property("TaskIdx", 4)
+Exception: HUD: Property 'TaskIdx' for attribute 'TaskIdx' on 'BP_TaskHUD_C' cannot be edited on instances
+
+EXCEPTION Traceback (most recent call last):
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/spider_view_test.py", line 11, in <module>
+    hud.set_editor_property("TaskIdx", 4)
+Exception: HUD: Property 'TaskIdx' for attribute 'TaskIdx' on 'BP_TaskHUD_C' cannot be edited on instances
+

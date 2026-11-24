@@ -1,0 +1,14 @@
+graphs: ['UserConstructionScript', 'EventGraph']
+graph UserConstructionScript nodes 1
+FOUND in EventGraph: K2Node_CallFunction_30 pos <Struct 'IntPoint' (0x000001CC99A30BE8) {x: 300, y: 21470}>
+   IN  execute =   links ['Branch[K2Node_IfThenElse_6].then']
+   IN  self =   links []
+   IN  Text = LEFT CLICK  -  SQUASH SPIDER  links []
+   IN  TextColor = (R=1,G=0.82,B=0.35,A=1)  links []
+   IN  ScreenX = 0.0  links ['float * float[K2Node_PromotableOperator_9].ReturnValue']
+   IN  ScreenY = 0.0  links ['float * float[K2Node_PromotableOperator_10].ReturnValue']
+   IN  Font = /Engine/EngineFonts/Roboto.Roboto  links []
+   IN  Scale = 1.2  links []
+   IN  bScalePosition = false  links []
+   OUT then =   links ['Branch[K2Node_IfThenElse_7].execute']
+graph EventGraph nodes 1492

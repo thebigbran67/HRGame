@@ -1,0 +1,2 @@
+pawn at <Struct 'Vector' (0x000001CC59FB1BE0) {x: 4570.000000, y: -900.000000, z: 118.150096}> rot <Struct 'Rotator' (0x000001CC59FB1BE0) {pitch: -38.000000, yaw: 180.000000, roll: 0.000000}>
+look at rot <Struct 'Rotator' (0x000001CC69349B90) {pitch: -52.958903, yaw: 178.436631, roll: 0.000001}> cam <Struct 'Vector' (0x000001CC69255C80) {x: 4570.933101, y: -904.392300, z: 234.326428}>

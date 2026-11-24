@@ -1,0 +1,54 @@
+DrawSquishPrompt [K2Node_CallFunction_0] []
+  <- execute from Branch.then
+  Branch [K2Node_IfThenElse_6] []
+    <- execute from Line Trace By Channel.then
+    Line Trace By Channel [K2Node_CallFunction_24] ['TraceChannel=TraceTypeQuery1', 'bTraceComplex=true', 'DrawDebugType=None', 'bIgnoreSelf=true', 'TraceColor=(R=1.000000,G=0.000000,B=0.000000,A=1.000000)', 'TraceHitColor=(R=0.000000,G=1.000000,B=0.000000,A=1.000000)', 'DrawTime=5.000000']
+      <- execute from Branch.then
+      Branch [K2Node_IfThenElse_5] []
+        <- execute from GetAllWidgetsOfClass.then
+        GetAllWidgetsOfClass [K2Node_CallFunction_19] ['WidgetClass=/Game/Blueprints/Dialogue/Widgets/W_MonsterTalk.W_MonsterTalk_C', 'TopLevelOnly=true']
+          <- execute from Branch.then
+          Branch [K2Node_IfThenElse_4] []
+            <- execute from For Each Loop.Completed
+            For Each Loop [K2Node_MacroInstance_0] []
+              <- Exec from GetAllActorsOfClass.then
+              GetAllActorsOfClass [K2Node_CallFunction_16] ['ActorClass=/Game/Blueprints/Dialogue/Blueprints/BP_Monster.BP_Monster_C']
+                <- execute from Sequence.then_0
+              <- Array from GetAllActorsOfClass.OutActors
+            <- Condition from Equal (Integer).ReturnValue
+            Equal (Integer) [K2Node_PromotableOperator_5] ['B=4']
+              <- A from Get TaskIdx.TaskIdx
+              Get TaskIdx [K2Node_VariableGet_0] []
+        <- Condition from Equal (Integer).ReturnValue
+        Equal (Integer) [K2Node_PromotableOperator_6] []
+          <- A from Length.ReturnValue
+          Length [K2Node_CallArrayFunction_2] []
+            <- TargetArray from GetAllWidgetsOfClass.FoundWidgets
+      <- Start from GetCameraLocation.ReturnValue
+      GetCameraLocation [K2Node_CallFunction_21] []
+        <- self from GetPlayerCameraManager.ReturnValue
+        GetPlayerCameraManager [K2Node_CallFunction_20] ['PlayerIndex=0']
+      <- End from vector + vector.ReturnValue
+      vector + vector [K2Node_PromotableOperator_8] []
+        <- A from GetCameraLocation.ReturnValue
+        <- B from vector * vector.ReturnValue
+        vector * vector [K2Node_PromotableOperator_7] ['B=(X=350,Y=350,Z=350)']
+          <- A from GetForwardVector.ReturnValue
+          GetForwardVector [K2Node_CallFunction_23] []
+            <- InRot from GetCameraRotation.ReturnValue
+            GetCameraRotation [K2Node_CallFunction_22] []
+              <- self from GetPlayerCameraManager.ReturnValue
+      <- ActorsToIgnore from Make Array.Array
+      Make Array [K2Node_MakeArray_0] []
+        <- [0] from GetPlayerPawn.ReturnValue
+        GetPlayerPawn [K2Node_CallFunction_36] ['PlayerIndex=0']
+    <- Condition from AND Boolean.ReturnValue
+    AND Boolean [K2Node_CommutativeAssociativeBinaryOperator_2] []
+      <- A from Line Trace By Channel.ReturnValue
+      <- B from ClassIsChildOf.ReturnValue
+      ClassIsChildOf [K2Node_CallFunction_27] ['ParentClass=/Game/_TASKS/BP_QuestSpider.BP_QuestSpider_C']
+        <- TestClass from Get Class.ReturnValue
+        Get Class [K2Node_CallFunction_26] []
+          <- Object from BreakHitResult.HitActor
+          BreakHitResult [K2Node_CallFunction_25] []
+            <- Hit from Line Trace By Channel.OutHit

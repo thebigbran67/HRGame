@@ -1,0 +1,18 @@
+spider (2470, -4767) -> (2100,-4920,22)
+spider (3252, -3712) -> (3030,-3620,21)
+spider (3630, -2470) -> (4030,-2470,21)
+spider (4563, -530) -> (4410,-900,21)
+spider (5427, -2003) -> (5710,-1720,21)
+EXCEPTION Traceback (most recent call last):
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/squish_prompt.py", line 52, in <module>
+    old = [n for n in ed.list_all_nodes() if "DrawText" in str(BEL.get_node_title(n))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/squish_prompt.py", line 53, in <listcomp>
+    and "SQUASH" in str(PIN.get_pin_value(inp(n, "Text"))).upper()]
+                                          ^^^^^^^^^^^^^^
+  File "C:/Users/rbrannig/Documents/GitHub/HRGame/Office80s_Import/squish_prompt.py", line 21, in inp
+    if p is None or not PIN.is_valid(p): raise RuntimeError("no in pin %s on %s" % (name, BEL.get_node_title(n)))
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no in pin Text on DrawTexture
+
+NOT saved
