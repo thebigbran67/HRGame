@@ -1,0 +1,162 @@
+TASK 0 /Game/_TASKS/Tasks/DA_Task_01_TalkToBoss.DA_Task_01_TalkToBoss
+   Title='Talk to the boss'
+   Type='Talk'
+   Target='Boss'
+   MustAccept=False
+   Count=0
+   DeliverTitle=''
+   DeliverTo=''
+   MeterMonster=''
+   MeterSeconds=150.0
+   CalmAmount=50.0
+   TalkTo=None
+   ItemsToPickUp=<Array object at 0x0000020371E0AB70>
+   BringItemsTo=None
+   GoToPlace=None
+   AngryMonster=None
+TASK 1 /Game/_TASKS/Tasks/DA_Task_02_TalkToJanitor.DA_Task_02_TalkToJanitor
+   Title='Talk to the janitor'
+   Type='Talk'
+   Target='Janitor'
+   MustAccept=True
+   Count=0
+   DeliverTitle=''
+   DeliverTo=''
+   MeterMonster=''
+   MeterSeconds=150.0
+   CalmAmount=50.0
+   TalkTo=None
+   ItemsToPickUp=<Array object at 0x0000020371D71170>
+   BringItemsTo=None
+   GoToPlace=None
+   AngryMonster=None
+TASK 2 /Game/_TASKS/Tasks/DA_Task_03_TakeOutTrash.DA_Task_03_TakeOutTrash
+   Title='Take out the trash'
+   Type='Collect'
+   Target='Task_Trash'
+   MustAccept=False
+   Count=0
+   DeliverTitle='Bring the trash to the dumpster'
+   DeliverTo='Task_Dumpster'
+   MeterMonster='Janitor'
+   MeterSeconds=150.0
+   CalmAmount=50.0
+   TalkTo=None
+   ItemsToPickUp=<Array object at 0x000002035F70EA30>
+   BringItemsTo=None
+   GoToPlace=None
+   AngryMonster=None
+TASK 3 /Game/_TASKS/Tasks/DA_Task_04_TalkToGioh.DA_Task_04_TalkToGioh
+   Title='Talk to the receptionist'
+   Type='Talk'
+   Target='Receptionist Gioh'
+   MustAccept=True
+   Count=0
+   DeliverTitle=''
+   DeliverTo=''
+   MeterMonster=''
+   MeterSeconds=150.0
+   CalmAmount=50.0
+   TalkTo=None
+   ItemsToPickUp=<Array object at 0x000002035F6CD570>
+   BringItemsTo=None
+   GoToPlace=None
+   AngryMonster=None
+TASK 4 /Game/_TASKS/Tasks/DA_Task_05_RemoveSpiders.DA_Task_05_RemoveSpiders
+   Title='Remove the office spiders'
+   Type='Collect'
+   Target='Task_Spider'
+   MustAccept=False
+   Count=5
+   DeliverTitle=''
+   DeliverTo=''
+   MeterMonster=''
+   MeterSeconds=150.0
+   CalmAmount=0.0
+   TalkTo=None
+   ItemsToPickUp=<Array object at 0x0000020371D71170>
+   BringItemsTo=None
+   GoToPlace=None
+   AngryMonster=None
+TASK 5 /Game/_TASKS/Tasks/DA_Task_06_ReturnToGioh.DA_Task_06_ReturnToGioh
+   Title='Return to Gioh'
+   Type='Talk'
+   Target='Receptionist Gioh'
+   MustAccept=False
+   Count=0
+   DeliverTitle=''
+   DeliverTo=''
+   MeterMonster=''
+   MeterSeconds=150.0
+   CalmAmount=50.0
+   TalkTo=None
+   ItemsToPickUp=<Array object at 0x000002035F70EA30>
+   BringItemsTo=None
+   GoToPlace=None
+   AngryMonster=None
+TASK 6 /Game/_TASKS/Tasks/DA_Task_07_BossFiringAssignment.DA_Task_07_BossFiringAssignment
+   Title='Talk to the boss'
+   Type='Talk'
+   Target='Boss'
+   MustAccept=False
+   Count=0
+   DeliverTitle=''
+   DeliverTo=''
+   MeterMonster=''
+   MeterSeconds=150.0
+   CalmAmount=50.0
+   TalkTo=<Object '/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_1C697ABD4227131003_1323216071' (0x0000020376A5B400) Class 'BP_Monster_C'>
+   ItemsToPickUp=<Array object at 0x000002035F6CD570>
+   BringItemsTo=None
+   GoToPlace=None
+   AngryMonster=None
+TASK 7 /Game/_TASKS/Tasks/DA_Task_08_FireGus.DA_Task_08_FireGus
+   Title='Fire Gus'
+   Type='Talk'
+   Target='Gus'
+   MustAccept=True
+   Count=0
+   DeliverTitle=''
+   DeliverTo=''
+   MeterMonster=''
+   MeterSeconds=150.0
+   CalmAmount=50.0
+   TalkTo=<Object '/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_107C61710C1DC81703_1934524319' (0x0000020376CC5A00) Class 'BP_Monster_C'>
+   ItemsToPickUp=<Array object at 0x0000020371E0ABB0>
+   BringItemsTo=None
+   GoToPlace=None
+   AngryMonster=None
+MONSTER BP_Monster2 class=BP_Monster_C name=Boss tags=[]
+MONSTER Gus class=BP_Monster_C name=Gus tags=[]
+MONSTER BP_Monster class=BP_Monster_C name=Janitor tags=['Janitor']
+MONSTER BP_Monster3 class=BP_Monster_C name=Floor Manager tags=[]
+MONSTER BP_Monster4 class=BP_Monster_C name=Receptionist Gioh tags=[]
+GUS ACTOR Gus class=/Game/Blueprints/Dialogue/Blueprints/BP_Monster.BP_Monster_C path=/Game/Maps/Office.Office:PersistentLevel.BP_Monster_C_UAID_107C61710C1DC81703_1934524319
+ASSET /Game/_TASKS/Tasks/DA_Task_08_FireGus (BPD_Task_C)
+ASSET /Game/_TASKS/Tasks/DA_Task_05_RemoveSpiders (BPD_Task_C)
+ASSET /Game/Dialogue/DataSet/ST_DialogueLine (UserDefinedStruct)
+ASSET /Game/Dialogue/DataSet/DT_MonsterDialogue (DataTable)
+ASSET /Game/Characters/Monsters/Gus/GusSprite (Texture2D)
+ASSET /Game/Characters/Monsters/Gus/GusSprite_Sprite (PaperSprite)
+ASSET /Game/_TASKS/BP_QuestSpider (Blueprint)
+ASSET /Game/Dialogue/Blueprints/BP_DialogueMaster (Blueprint)
+ASSET /Game/Blueprints/Dialogue/Blueprints/BP_DialogueMaster (Blueprint)
+ASSET /Game/Characters/Mannequins/Anims/Pistol/MM_Pistol_DryFire (AnimSequence)
+ASSET /Game/Characters/Mannequins/Anims/Pistol/MM_Pistol_Fire (AnimSequence)
+ASSET /Game/Characters/Mannequins/Anims/Pistol/MM_Pistol_Fire_Montage (AnimMontage)
+ASSET /Game/Characters/Mannequins/Anims/Rifle/MM_Rifle_DryFire (AnimSequence)
+ASSET /Game/Characters/Mannequins/Anims/Rifle/MM_Rifle_Fire (AnimSequence)
+ASSET /Game/Weapons/GrenadeLauncher/Audio/FirstPersonTemplateWeaponFire02 (SoundWave)
+DT rows: ['ReceptionistGioh_Tutorial', 'Boss_Tutorial', 'Janitor_QuestAvailable', 'FloorManager_Tutorial', 'FloorManager_Break', 'ReceptionistGioh_SpiderOffer', 'ReceptionistGioh_SpiderActive', 'ReceptionistGioh_SpiderThanks', 'Boss_FireGus', 'Gus_Tutorial']
+DT csv:
+---,DialogueText,NextTextID,HasOptions?,Option1,Option2,Option3
+ReceptionistGioh_Tutorial,"NSLOCTEXT(""[C862D8D30FA1DD848D39A91224A6FDE7]"", ""20C708764700F01CB1C67888BF4228A1"", ""\""Welcome. You must be the new hire, right? The Boss is waiting for you. It should be the room all the way to the far left.\"""")","","False","","",""
+Boss_Tutorial,"NSLOCTEXT(""[C862D8D30FA1DD848D39A91224A6FDE7]"", ""E4B67D7041D1E5C04138AB8B73D066BF"", ""\""Hi. Nice to see you could make it. I\'m sure you already know what this job entails? Well, lets put you to the test. I think the janitor could use some help.\"""")","","False","","",""
+Janitor_QuestAvailable,"NSLOCTEXT(""[C862D8D30FA1DD848D39A91224A6FDE7]"", ""EC4CE3DF45F5A6320A8AB29F08D3C0F8"", ""\""Well, what do we have here? A Human? Well, don\'t matter. You\'re here. Can you help me with somethin\'? There\'s a lotta trash around. Think you can help?\"""")","","True","NSLOCTEXT(""[C862D8D30FA1DD848D39A91224A6FDE7]"", ""B4BCCC5E469FD03A03F5D0BE21BF928B"", ""Ew... a monster"")","NSLOCTEXT(""[C862D8D30FA1DD848D39A91224A6FDE7]"", ""B6A172F743E71E6FDA6BAFAF23A5DF02"", ""What are you?"")","NSLOCTEXT(""[C862D8D30FA1DD848D39A91224A6FDE7]"", ""91574A834590BB3B465F14BD9D3D1516"", ""Sure"")"
+FloorManager_Tutorial,"NSLOCTEXT(""[C862D8D30FA1DD848D39A91224A6FDE7]"", ""BFCA18294779AFFF645868B0CD19EAE6"", ""\""Hi, I\'m the floor manager of this place. You the one they hired? Man, you don\'t look like much. Do you even eat? Well, whatever.\"""")","","False","","",""
+FloorManager_Break,"NSLOCTEXT(""[C862D8D30FA1DD848D39A91224A6FDE7]"", ""9292837B43D612791EB0C8A9E8ADCE55"", ""Don\'t talk to me. Can\'t you see I\'m on break?"")","","False","","",""
+ReceptionistGioh_SpiderOffer,"NSLOCTEXT(""DT_MonsterDialogue [C862D8D30FA1DD848D39A91224A6FDE7]"", ""ReceptionistGioh_SpiderOffer_DialogueText"", ""You took out the trash? Great. Tiny problem: five spiders have moved into the office. I handle visitors, not visitors with eight legs. Could you squash them? Look in the bathroom and around the office. Aim at a spider and left-click when you\'re close."")","","True","NSLOCTEXT(""DT_MonsterDialogue [C862D8D30FA1DD848D39A91224A6FDE7]"", ""ReceptionistGioh_SpiderOffer_Option1"", ""You\'re scared of spiders?"")","NSLOCTEXT(""DT_MonsterDialogue [C862D8D30FA1DD848D39A91224A6FDE7]"", ""ReceptionistGioh_SpiderOffer_Option2"", ""Where should I look?"")","NSLOCTEXT(""DT_MonsterDialogue [C862D8D30FA1DD848D39A91224A6FDE7]"", ""ReceptionistGioh_SpiderOffer_Option3"", ""I\'ll take care of them."")"
+ReceptionistGioh_SpiderActive,"NSLOCTEXT(""DT_MonsterDialogue [C862D8D30FA1DD848D39A91224A6FDE7]"", ""ReceptionistGioh_SpiderActive_DialogueText"", ""Five spiders. Check the bathroom and office floor. Aim at them and left-click up close. I\'ll be here, maintaining a very professional distance."")","","False","","",""
+ReceptionistGioh_SpiderThanks,"NSLOCTEXT(""DT_MonsterDialogue [C862D8D30FA1DD848D39A91224A6FDE7]"", ""ReceptionistGioh_SpiderThanks_DialogueText"", ""All five? You\'re a lifesaver. If the boss asks, pest control was definitely in your job description. He wanted to see you before you leave. Good luck."")","","False","","",""
+Boss_FireGus,"NSLOCTEXT(""DT_MonsterDialogue [C862D8D30FA1DD848D39A91224A6FDE7]"", ""Boss_FireGus_DialogueText"", ""One more thing. Gus, the new hire outside my office, isn\'t working out. Tell him he\'s fired. Yes, you. Consider it your first assignment in employee relations."")","","False","","",""
+Gus_Tutorial,"NSLOCTEXT(""DT_MonsterDialogue [C862D8D30FA1DD848D39A91224A6FDE7]"", ""Gus_Tutorial_DialogueText"", ""Hey! I\'m Gus, the new guy. Are you here to help me get settled in?"")","","True","NSLOCTEXT(""DT_MonsterDialogue [C862D8D30FA1DD848D39A91224A6FDE7]"", ""Gus_Tutorial_Option1"", ""How\'s your first day?"")","NSLOCTEXT(""DT_MonsterDialogue [C862D8D30FA1DD848D39A91224A6FDE7]"", ""Gus_Tutorial_Option2"", ""What have you been working on?"")","NSLOCTEXT(""DT_MonsterDialogue [C862D8D30FA1DD848D39A91224A6FDE7]"", ""Gus_Tutorial_Option3"", ""I\'m sorry, Gus. The boss says you\'re fired."")"

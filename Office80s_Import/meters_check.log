@@ -1,0 +1,3 @@
+DA_Task_03_TakeOutTrash: MeterMonster=Janitor MeterSeconds=150.0
+DA_Task_05_RemoveSpiders: MeterMonster=Receptionist Gioh MeterSeconds=110.0
+DA_Task_08_FireGus: MeterMonster=Boss MeterSeconds=75.0
